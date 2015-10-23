@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf      = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs     = "http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl      = "http://www.w3.org/2002/07/owl#"
+         xmlns:foaf     = "http://xmlns.com/foaf/0.1/"
+         xmlns:po       = "http://purl.org/ontology/po/"
+         xmlns:mo       = "http://purl.org/ontology/mo/"
+         xmlns:skos     = "http://www.w3.org/2008/05/skos#"
+         xmlns:time     = "http://www.w3.org/2006/time#"
+         xmlns:dc       = "http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms  = "http://purl.org/dc/terms/"
+         xmlns:wgs84_pos= "http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:timeline = "http://purl.org/NET/c4dm/timeline.owl#"
+         xmlns:event    = "http://purl.org/NET/c4dm/event.owl#">
+
+<rdf:Description rdf:about="http://bbc.co.uk/programmes/p00q05sd.rdf">
+  <rdfs:label>Description of the series "Season 15"</rdfs:label>
+  <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-12T10:05:22Z</dcterms:created>
+  <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-08-13T08:25:25+01:00</dcterms:modified>
+  <foaf:primaryTopic rdf:resource="http://bbc.co.uk/programmes/p00q05sd#programme"/>
+</rdf:Description>
+
+<po:Series rdf:about="http://bbc.co.uk/programmes/p00q05sd#programme">
+
+  <po:pid>p00q05sd</po:pid>
+  <dc:title>Season 15</dc:title>
+  <po:short_synopsis>K-9 is introduced, Rutans invade Earth and Sontarans storm Gallifrey!</po:short_synopsis>
+  <po:medium_synopsis>K-9 is introduced in a season that opens with a Rutan invading Earth and finishes with Sontarans storming the Doctor&#8217;s home planet of Gallifrey - where Leela decides to stay.</po:medium_synopsis>
+  <po:long_synopsis>K-9 is introduced in a season that opens with a Rutan invading Earth and finishes with Sontarans storming the Doctor&#8217;s home planet of Gallifrey - where Leela decides to stay.</po:long_synopsis>
+
+
+  
+
+  <po:genre rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre" />
+
+
+  
+
+
+
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00q05sm#programme">
+      <dc:title>Horror of Fang Rock</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00q05sp#programme">
+      <dc:title>The Invisible Enemy</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00q05sr#programme">
+      <dc:title>Image of the Fendahl</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00q05st#programme">
+      <dc:title>The Sun Makers</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00q05sw#programme">
+      <dc:title>Underworld</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00q05sy#programme">
+      <dc:title>The Invasion of Time</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</po:position> 
+    </po:Series>
+  </po:series>
+
+</po:Series>
+
+<po:Brand rdf:about="http://bbc.co.uk/programmes/b006q2x0#programme">
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00q05sd#programme"/>
+</po:Brand>
+
+
+
+</rdf:RDF>

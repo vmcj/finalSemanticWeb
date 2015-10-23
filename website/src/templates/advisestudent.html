@@ -1,0 +1,22 @@
+<html>
+<style>
+    body{background-color:#E5E4E2
+    }
+    *{font-family: "Lucida Console", Monaco, monospace;}
+    
+</style>
+<body>
+	<h1>Teacher Page</h2>
+	<h2>Students</h2>
+	<div id="sList">Display list of Students</div>
+	<h2>Media</h2>
+	<div id="mList" style="margin: 10px 10px; overflow: scroll; height: 300px;">Display list of media</div>
+	<div id="s"><b>{{student}}</b></div>
+	<div id="r"><i>Is advised to watch</i></div>
+	<div id="o"><b>Media</b></div>
+	<input id="adviseButton" type="button" value="Advise" />
+	<div id="response"></div>
+	<script src='{{ url_for("static", filename="js/jquery-1.11.0.min.js") }}' type='text/javascript'></script>
+	<script src='{{ url_for("static", filename="js/advisestudent.js") }}' type='text/javascript'></script>
+</body>
+</html>

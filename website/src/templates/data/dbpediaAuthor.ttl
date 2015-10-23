@@ -1,0 +1,33 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+dbo:author	rdf:type	rdf:Property .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+dbo:author	rdf:type	owl:ObjectProperty .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns4:	<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+dbo:author	rdfs:subPropertyOf	ns4:coparticipatesWith .
+@prefix ns5:	<http://schema.org/> .
+dbo:author	owl:equivalentProperty	ns5:author .
+@prefix wikidata:	<http://www.wikidata.org/entity/> .
+dbo:author	owl:equivalentProperty	wikidata:P50 ;
+	owl:sameAs	dbo:author ;
+	rdfs:label	"\u0430\u0432\u0442\u043E\u0440"@ru ,
+		"auteur"@fr ,
+		"autor"@pl ,
+		"autor"@ca ,
+		"autor"@de ,
+		"\u03C3\u03C5\u03B3\u03B3\u03C1\u03B1\u03C6\u03AD\u03B1\u03C2"@el ,
+		"\u00FAdar"@ga ,
+		"author"@en ,
+		"auteur"@nl ;
+	rdfs:domain	dbo:Work ;
+	rdfs:range	dbo:Person ;
+	rdfs:isDefinedBy	dbo: .
+@prefix wdrs:	<http://www.w3.org/2007/05/powder-s#> .
+dbo:author	wdrs:describedby	<http://dbpedia.org/ontology/data/definitions.ttl> .
+@prefix ns8:	<http://www.w3.org/ns/prov#> .
+@prefix ns9:	<http://mappings.dbpedia.org/index.php/OntologyProperty:> .
+dbo:author	ns8:wasDerivedFrom	ns9:author .
+@prefix ns10:	<http://open.vocab.org/terms/> .
+dbo:	ns10:defines	dbo:author .
+<http://dbpedia.org/ontology/data/definitions.ttl>	ns10:describes	dbo:author .

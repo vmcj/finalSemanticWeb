@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf      = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs     = "http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl      = "http://www.w3.org/2002/07/owl#"
+         xmlns:foaf     = "http://xmlns.com/foaf/0.1/"
+         xmlns:po       = "http://purl.org/ontology/po/"
+         xmlns:mo       = "http://purl.org/ontology/mo/"
+         xmlns:skos     = "http://www.w3.org/2008/05/skos#"
+         xmlns:time     = "http://www.w3.org/2006/time#"
+         xmlns:dc       = "http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms  = "http://purl.org/dc/terms/"
+         xmlns:wgs84_pos= "http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:timeline = "http://purl.org/NET/c4dm/timeline.owl#"
+         xmlns:event    = "http://purl.org/NET/c4dm/event.owl#">
+
+<rdf:Description rdf:about="http://bbc.co.uk/programmes/b006v193.rdf">
+  <rdfs:label>Description of the series "Series 3"</rdfs:label>
+  <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-18T23:51:12+01:00</dcterms:created>
+  <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-12-18T16:03:23Z</dcterms:modified>
+  <foaf:primaryTopic rdf:resource="http://bbc.co.uk/programmes/b006v193#programme"/>
+</rdf:Description>
+
+<po:Series rdf:about="http://bbc.co.uk/programmes/b006v193#programme">
+
+  <po:pid>b006v193</po:pid>
+  <dc:title>Series 3</dc:title>
+  <po:short_synopsis>Adventures in time and space with the wandering Time Lord</po:short_synopsis>
+  <po:medium_synopsis>Adventures in time and space with the wandering Time Lord, played in this series by David Tennant</po:medium_synopsis>
+  
+
+  <foaf:depiction rdf:resource="http://www.bbc.co.uk/iplayer/images/series/b006v193_512_288.jpg"/>
+
+  
+
+  <po:genre rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre" />
+
+
+  
+
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00hxk17#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00hxk3l#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00hxk8v#programme"/>
+
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b0074gly#programme">
+      <dc:title>Smith and Jones</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b007hb9s#programme">
+      <dc:title>42</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b007m0r9#programme">
+      <dc:title>Human Nature</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b007n0d6#programme">
+      <dc:title>The Family of Blood</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b0074gpl#programme">
+      <dc:title>Blink</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b007qltt#programme">
+      <dc:title>Utopia</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b007r65s#programme">
+      <dc:title>The Sound of Drums</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b007rsj5#programme">
+      <dc:title>Last of the Time Lords</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b0074gmy#programme">
+      <dc:title>The Shakespeare Code</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b0074gnr#programme">
+      <dc:title>Gridlock</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b0079mgg#programme">
+      <dc:title>Daleks in Manhattan</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b0079t3d#programme">
+      <dc:title>Evolution of the Daleks</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b007ghhb#programme">
+      <dc:title>The Lazarus Experiment</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</po:position> 
+    </po:Episode>
+  </po:episode>
+
+
+</po:Series>
+
+<po:Brand rdf:about="http://bbc.co.uk/programmes/b006q2x0#programme">
+  <po:series rdf:resource="http://bbc.co.uk/programmes/b006v193#programme"/>
+</po:Brand>
+
+
+
+</rdf:RDF>

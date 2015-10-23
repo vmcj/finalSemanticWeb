@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf      = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs     = "http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl      = "http://www.w3.org/2002/07/owl#"
+         xmlns:foaf     = "http://xmlns.com/foaf/0.1/"
+         xmlns:po       = "http://purl.org/ontology/po/"
+         xmlns:mo       = "http://purl.org/ontology/mo/"
+         xmlns:skos     = "http://www.w3.org/2008/05/skos#"
+         xmlns:time     = "http://www.w3.org/2006/time#"
+         xmlns:dc       = "http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms  = "http://purl.org/dc/terms/"
+         xmlns:wgs84_pos= "http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:timeline = "http://purl.org/NET/c4dm/timeline.owl#"
+         xmlns:event    = "http://purl.org/NET/c4dm/event.owl#">
+
+<rdf:Description rdf:about="http://bbc.co.uk/programmes/p023w977.rdf">
+  <rdfs:label>Description of the series "Series 8"</rdfs:label>
+  <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T15:29:36+01:00</dcterms:created>
+  <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-08T13:13:20Z</dcterms:modified>
+  <foaf:primaryTopic rdf:resource="http://bbc.co.uk/programmes/p023w977#programme"/>
+</rdf:Description>
+
+<po:Series rdf:about="http://bbc.co.uk/programmes/p023w977#programme">
+
+  <po:pid>p023w977</po:pid>
+  <dc:title>Series 8</dc:title>
+  <po:short_synopsis>Adventures across time and space with the time-travelling hero.</po:short_synopsis>
+  <po:medium_synopsis>Adventures across time and space with the time-travelling hero.</po:medium_synopsis>
+  
+
+
+  
+
+  <po:genre rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre" />
+
+
+  
+
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02b8nfp#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02b9jcs#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02b9fpy#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02b9kb3#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p0295j18#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p0253ys6#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p0258wdw#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p025811w#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p0253yhn#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p0253y4q#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p0254cnm#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p0253xpr#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p0252ryt#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p0252rtj#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02528jb#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p025051h#programme"/>
+
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/p023w9fy#programme">
+      <dc:title>Deep Breath</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b04grqgx#programme">
+      <dc:title>Into the Dalek</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b04gmmk1#programme">
+      <dc:title>Robot of Sherwood</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b04hynt7#programme">
+      <dc:title>Listen</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b04jlry8#programme">
+      <dc:title>Time Heist</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b04kf1lh#programme">
+      <dc:title>The Caretaker</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b04l339v#programme">
+      <dc:title>Kill the Moon</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b04lny6c#programme">
+      <dc:title>Mummy on the Orient Express</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b04mhqf1#programme">
+      <dc:title>Flatline</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b04n1wqm#programme">
+      <dc:title>In the Forest of the Night</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b04nv6kr#programme">
+      <dc:title>Dark Water</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b04ph4cn#programme">
+      <dc:title>Death in Heaven</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</po:position> 
+    </po:Episode>
+  </po:episode>
+
+
+</po:Series>
+
+<po:Brand rdf:about="http://bbc.co.uk/programmes/b006q2x0#programme">
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p023w977#programme"/>
+</po:Brand>
+
+
+
+</rdf:RDF>

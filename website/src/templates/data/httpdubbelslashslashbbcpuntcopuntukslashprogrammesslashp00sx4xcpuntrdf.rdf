@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf      = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs     = "http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl      = "http://www.w3.org/2002/07/owl#"
+         xmlns:foaf     = "http://xmlns.com/foaf/0.1/"
+         xmlns:po       = "http://purl.org/ontology/po/"
+         xmlns:mo       = "http://purl.org/ontology/mo/"
+         xmlns:skos     = "http://www.w3.org/2008/05/skos#"
+         xmlns:time     = "http://www.w3.org/2006/time#"
+         xmlns:dc       = "http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms  = "http://purl.org/dc/terms/"
+         xmlns:wgs84_pos= "http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:timeline = "http://purl.org/NET/c4dm/timeline.owl#"
+         xmlns:event    = "http://purl.org/NET/c4dm/event.owl#">
+
+<rdf:Description rdf:about="http://bbc.co.uk/programmes/p00sx4xc.rdf">
+  <rdfs:label>Description of the series "Season 22"</rdfs:label>
+  <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-21T10:27:45+01:00</dcterms:created>
+  <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-08-06T09:11:38+01:00</dcterms:modified>
+  <foaf:primaryTopic rdf:resource="http://bbc.co.uk/programmes/p00sx4xc#programme"/>
+</rdf:Description>
+
+<po:Series rdf:about="http://bbc.co.uk/programmes/p00sx4xc#programme">
+
+  <po:pid>p00sx4xc</po:pid>
+  <dc:title>Season 22</dc:title>
+  <po:short_synopsis>Old foes including the Cybermen, Daleks and Davros return and we meet the Rani and Sil!</po:short_synopsis>
+  <po:medium_synopsis>For the first time since Season Nine, there are no cast changes. But old foes including the Cybermen, Daleks and Davros return and we meet the Rani and Sil!</po:medium_synopsis>
+  <po:long_synopsis>For the first time since Season Nine, there are no cast changes. But old foes including the Cybermen, Daleks and Davros return and we meet the Rani and Sil!</po:long_synopsis>
+
+
+  
+
+  <po:genre rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre" />
+
+
+  
+
+
+
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00sx4z7#programme">
+      <dc:title>Attack of the Cybermen</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00sx529#programme">
+      <dc:title>Vengeance on Varos</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00sx53b#programme">
+      <dc:title>The Mark of the Rani</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00sx55d#programme">
+      <dc:title>The Two Doctors</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00sx594#programme">
+      <dc:title>Timelash</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00sx5b8#programme">
+      <dc:title>Revelation of the Daleks</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00x7d2p#programme">
+      <dc:title>Revelation of the Daleks</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</po:position> 
+    </po:Series>
+  </po:series>
+
+</po:Series>
+
+<po:Brand rdf:about="http://bbc.co.uk/programmes/b006q2x0#programme">
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00sx4xc#programme"/>
+</po:Brand>
+
+
+
+</rdf:RDF>

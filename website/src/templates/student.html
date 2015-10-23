@@ -1,0 +1,33 @@
+<html>
+<head>
+	<link href="/data/{{style}}.css" rel="stylesheet">
+<body>
+	<h1>Student Page</h2>
+	<i id="sId">{{student}}</i>
+	<iframe style="background-color: rgba(255, 255, 255, 0.6); display: absolute; left: 0; float: right; width: 1200px; height: 600px; border: 0" name="targetFrame" id="targetFrame"></iframe>
+	<div id='queryDiv' style="display: none">
+PREFIX own: &lt;http://www.few.vu.nl/~mvr320/ontologies/week2#&gt;
+PREFIX dcterms: &lt;http://purl.org/dc/terms/&gt;
+PREFIX dc: &lt;http://purl.org/dc/elements/1.1/&gt;
+SELECT ?title WHERE {
+	own:{{student}} own:advised_to ?resource .
+	{ OPTIONAL{?resource dc:title ?title} }
+	UNION
+	{ OPTIONAL{?resource dcterms:title ?title} }
+}</div>
+<!--
+PREFIX own: &lt;http://www.few.vu.nl/~mvr320/ontologies/week2#&gt;
+SELECT ?c WHERE {
+	?c own:advised_to own:{{student}} .
+}</div>-->
+	<h2>Recommended by Teacher</h2>
+	<div id="mList">Display list of advised media</div>
+	<textarea id="searchBar" placeholder="search term"></textarea>
+	<div id="resultBar">Wait for results</div>
+	<div id="resultBarImg">Wait for image results</div>
+	<a id="like"><img height="5%" src="http://cdn.mysitemyway.com/icons-watermarks/simple-black/bfa/bfa_thumbs-o-up/bfa_thumbs-o-up_simple-black_512x512.png"></a><a id="dislike"><img height="5%" src="http://cdn.mysitemyway.com/icons-watermarks/simple-black/bfa/bfa_thumbs-o-down/bfa_thumbs-o-down_simple-black_512x512.png"></a>
+	<div id="response"></div>
+	<script src='{{ url_for("static", filename="js/jquery-1.11.0.min.js") }}' type='text/javascript'></script>
+	<script src='{{ url_for("static", filename="js/student.js") }}' type='text/javascript'></script>
+</body>
+</html>

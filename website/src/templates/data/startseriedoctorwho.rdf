@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf      = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs     = "http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl      = "http://www.w3.org/2002/07/owl#"
+         xmlns:foaf     = "http://xmlns.com/foaf/0.1/"
+         xmlns:po       = "http://purl.org/ontology/po/"
+         xmlns:mo       = "http://purl.org/ontology/mo/"
+         xmlns:skos     = "http://www.w3.org/2008/05/skos#"
+         xmlns:time     = "http://www.w3.org/2006/time#"
+         xmlns:dc       = "http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms  = "http://purl.org/dc/terms/"
+         xmlns:wgs84_pos= "http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:timeline = "http://purl.org/NET/c4dm/timeline.owl#"
+         xmlns:event    = "http://purl.org/NET/c4dm/event.owl#">
+
+<rdf:Description rdf:about="http://bbc.co.uk/programmes/b006q2x0.rdf">
+  <rdfs:label>Description of the brand "Doctor Who"</rdfs:label>
+  <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-18T23:51:12+01:00</dcterms:created>
+  <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-08-23T13:10:25+01:00</dcterms:modified>
+  <foaf:primaryTopic rdf:resource="http://bbc.co.uk/programmes/b006q2x0#programme"/>
+</rdf:Description>
+
+<po:Brand rdf:about="http://bbc.co.uk/programmes/b006q2x0#programme">
+
+  <po:pid>b006q2x0</po:pid>
+  <dc:title>Doctor Who</dc:title>
+  <po:short_synopsis>Adventures in Space and Time.</po:short_synopsis>
+  <po:medium_synopsis>Adventures in Space and Time.</po:medium_synopsis>
+  
+
+  <foaf:depiction rdf:resource="http://www.bbc.co.uk/iplayer/images/progbrand/b006q2x0_512_288.jpg"/>
+
+  
+
+  <po:genre rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre" />
+
+
+  <po:masterbrand rdf:resource="http://bbc.co.uk/bbcone#service"/>
+
+  <po:series rdf:resource="http://bbc.co.uk/programmes/b009x51p#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00kl3tj#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00km1bv#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00kn6bv#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/b014bfrm#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00krpg4#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00lw2nz#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/b00855qm#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00pl3fw#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00pn824#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00pn9fq#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00pq2dc#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00pyrpv#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/b0117993#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00q05sd#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00r9wqn#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00rm61q#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00s64fm#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00sftwn#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00sfvc7#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p0318pqy#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00sx3q2#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00sx4xc#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00t7gfl#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00t1kfj#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00t7gt3#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00t7jfg#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/b007vvcq#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/b006v18m#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/b006v193#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/b009wxzy#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p0056cjg#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/b00rs69w#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/b0103y2x#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00wqr12#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/b01rryyj#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p023w977#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/b06f2y7r#programme" />
+  <po:series rdf:resource="http://bbc.co.uk/programmes/b06hgxtt#programme" />
+
+  <po:episode rdf:resource="http://bbc.co.uk/programmes/p00t8v7g#programme" />
+  <po:episode rdf:resource="http://bbc.co.uk/programmes/p00t8qnw#programme" />
+  <po:episode rdf:resource="http://bbc.co.uk/programmes/b0074f9p#programme" />
+  <po:episode rdf:resource="http://bbc.co.uk/programmes/b0074g6q#programme" />
+  <po:episode rdf:resource="http://bbc.co.uk/programmes/b008lyb2#programme" />
+  <po:episode rdf:resource="http://bbc.co.uk/programmes/b00gd1mr#programme" />
+  <po:episode rdf:resource="http://bbc.co.uk/programmes/b00jz2t4#programme" />
+  <po:episode rdf:resource="http://bbc.co.uk/programmes/b00p05x8#programme" />
+  <po:episode rdf:resource="http://bbc.co.uk/programmes/b00pk651#programme" />
+  <po:episode rdf:resource="http://bbc.co.uk/programmes/b00pk7ls#programme" />
+  <po:episode rdf:resource="http://bbc.co.uk/programmes/b00wyj5p#programme" />
+  <po:episode rdf:resource="http://bbc.co.uk/programmes/b018nrhp#programme" />
+  <po:episode rdf:resource="http://bbc.co.uk/programmes/b01mmqtt#programme" />
+  <po:episode rdf:resource="http://bbc.co.uk/programmes/p011gpsb#programme" />
+  <po:episode rdf:resource="http://bbc.co.uk/programmes/p01lhhv4#programme" />
+  <po:episode rdf:resource="http://bbc.co.uk/programmes/p01m25zg#programme" />
+  <po:episode rdf:resource="http://bbc.co.uk/programmes/p01l1z04#programme" />
+  <po:episode rdf:resource="http://bbc.co.uk/programmes/p01mj6k8#programme" />
+  <po:episode rdf:resource="http://bbc.co.uk/programmes/p02ct985#programme" />
+
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p032ktqg#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p032tl4r#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p032kr3m#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p032kq8n#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p032knyw#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p032hw50#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p032j2qp#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p0327fkf#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p031xxr5#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p031xxhg#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p031xqrn#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p031lh9r#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p031h4j8#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p030ymdz#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p030sqjj#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p030sqf1#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02znt0x#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02zfwz9#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02yvk3k#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p034p0yr#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p034p0s4#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p034p0nf#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p034p0lg#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p034p0h7#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p032hmjz#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p032hljp#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p032hl0l#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p032hkcf#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p032hjph#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02yh77s#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02yh6zp#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02yd9qv#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02yb43r#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02y7ls0#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02xs486#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02wns22#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02whnlh#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02vh9sw#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02tcf16#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02t9f0k#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02rttnf#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02rtt9b#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02rbyg0#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02r9d2d#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02qyfc9#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02qyf2y#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02qrwhd#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02qbncb#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02q3gsl#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02ptd3b#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02pr92b#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02nvv3j#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02np5d3#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02n9kt1#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02mtm10#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02mswx6#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02mrscv#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02md9t9#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02m7zj7#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02lbdzw#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02kyw5d#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02kbm8s#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02hyfb0#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02fz5vv#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02f3wcs#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02bcwn3#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p027v2qg#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p0269h79#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p025vnft#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p025v1h6#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p023lcbh#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p023hvkg#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p023fjfx#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p022sxks#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p0225wyr#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p021r78j#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p01zp3cd#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p01qdgyt#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p01m3n7m#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p01lg91q#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p01l45lp#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p01l2217#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p01kw1f3#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p01jzhz3#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p01hpsvq#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p01hmwv4#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p01fs965#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p01fndf8#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p01dpxh4#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p01dpwc0#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p01dlmj4#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p01c8v3w#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p01bqbpb#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p01972h5#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p017gl8h#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p017g9h8#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00z3rxz#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00t74kd#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p008y2q7#programme"/>
+
+</po:Brand>
+
+
+</rdf:RDF>

@@ -1,0 +1,216 @@
+@prefix : <http://www.few.vu.nl/~mvr320/ontologies/week2#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.few.vu.nl/~mvr320/ontologies/week2> .
+
+<http://www.few.vu.nl/~mvr320/ontologies/week2> rdf:type owl:Ontology .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#advised_to
+
+:advised_to rdf:type owl:ObjectProperty ;
+            
+            owl:inverseOf :is_advised .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#dislikes
+
+:dislikes rdf:type owl:ObjectProperty ;
+          
+          rdfs:range :Media ;
+          
+          rdfs:domain :Students .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#is_advised
+
+:is_advised rdf:type owl:ObjectProperty ;
+            
+            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#likes
+
+:likes rdf:type owl:ObjectProperty ;
+       
+       rdfs:range :Media ;
+       
+       rdfs:domain :Students .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#student_of
+
+:student_of rdf:type owl:ObjectProperty ;
+            
+            owl:inverseOf :teacher_of .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#teacher_of
+
+:teacher_of rdf:type owl:ObjectProperty ;
+            
+            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#Media
+
+:Media rdf:type owl:Class .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#Students
+
+:Students rdf:type owl:Class ;
+          
+          owl:equivalentClass [ rdf:type owl:Restriction ;
+                                owl:onProperty :is_advised ;
+                                owl:someValuesFrom :Media
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :student_of ;
+                                owl:someValuesFrom :Teachers
+                              ] ;
+          
+          rdfs:subClassOf :Users .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#Teachers
+
+:Teachers rdf:type owl:Class ;
+          
+          owl:equivalentClass [ rdf:type owl:Restriction ;
+                                owl:onProperty :teacher_of ;
+                                owl:someValuesFrom :Students
+                              ] ;
+          
+          rdfs:subClassOf :Users .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#Users
+
+:Users rdf:type owl:Class ;
+       
+       owl:disjointUnionOf ( :Students
+                             :Teachers
+                           ) .
+
+
+
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+
+###  http://dbpedia.org/resource/Genghis_Khan_(documentary)
+
+<http://dbpedia.org/resource/Genghis_Khan_(documentary)> rdf:type owl:NamedIndividual .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#exampleMedia
+
+:exampleMedia rdf:type :Media ,
+                       owl:NamedIndividual ;
+              
+              :advised_to :exampleStudent .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#exampleMedia2
+
+:exampleMedia2 rdf:type :Media ,
+                        owl:NamedIndividual ;
+               
+               :advised_to :exampleStudent2 .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#exampleStudent
+
+:exampleStudent rdf:type owl:NamedIndividual ,
+                         owl:Thing ;
+                
+                :likes <http://dbpedia.org/resource/Genghis_Khan_(documentary)> ;
+                
+                :is_advised <http://dbpedia.org/resource/Genghis_Khan_(documentary)> ;
+                
+                :dislikes :exampleMedia ;
+                
+                :student_of :exampleTeacher2 .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#exampleStudent2
+
+:exampleStudent2 rdf:type owl:NamedIndividual ,
+                          owl:Thing .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#exampleStudent3
+
+:exampleStudent3 rdf:type owl:NamedIndividual ,
+                          owl:Thing .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#exampleStudent4
+
+:exampleStudent4 rdf:type owl:NamedIndividual ,
+                          owl:Thing .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#exampleTeacher
+
+:exampleTeacher rdf:type :Teachers ,
+                         owl:NamedIndividual ,
+                         owl:Thing ;
+                
+                :teacher_of :exampleStudent2 ,
+                            :exampleStudent3 ,
+                            :exampleStudent4 .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#exampleTeacher2
+
+:exampleTeacher2 rdf:type :Teachers ,
+                          owl:NamedIndividual .
+
+
+
+
+###  Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net
+

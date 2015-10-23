@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf      = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs     = "http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl      = "http://www.w3.org/2002/07/owl#"
+         xmlns:foaf     = "http://xmlns.com/foaf/0.1/"
+         xmlns:po       = "http://purl.org/ontology/po/"
+         xmlns:mo       = "http://purl.org/ontology/mo/"
+         xmlns:skos     = "http://www.w3.org/2008/05/skos#"
+         xmlns:time     = "http://www.w3.org/2006/time#"
+         xmlns:dc       = "http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms  = "http://purl.org/dc/terms/"
+         xmlns:wgs84_pos= "http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:timeline = "http://purl.org/NET/c4dm/timeline.owl#"
+         xmlns:event    = "http://purl.org/NET/c4dm/event.owl#">
+
+<rdf:Description rdf:about="http://bbc.co.uk/programmes/p00sftwn.rdf">
+  <rdfs:label>Description of the series "Season 19"</rdfs:label>
+  <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-14T08:47:02+01:00</dcterms:created>
+  <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-08-06T09:10:33+01:00</dcterms:modified>
+  <foaf:primaryTopic rdf:resource="http://bbc.co.uk/programmes/p00sftwn#programme"/>
+</rdf:Description>
+
+<po:Series rdf:about="http://bbc.co.uk/programmes/p00sftwn#programme">
+
+  <po:pid>p00sftwn</po:pid>
+  <dc:title>Season 19</dc:title>
+  <po:short_synopsis>A new Doctor but the same old Master... and the return of the Cybermen!</po:short_synopsis>
+  <po:medium_synopsis>One new Doctor. Two battles with the Master. Three companions and tragedy as Adric departs after a battle with the Cybermen.</po:medium_synopsis>
+  <po:long_synopsis>One new Doctor. Two battles with the Master. Three companions and tragedy as Adric departs after a battle with the Cybermen.</po:long_synopsis>
+
+
+  
+
+  <po:genre rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre" />
+
+
+  
+
+
+
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00sftwz#programme">
+      <dc:title>Castrovalva</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00sftyd#programme">
+      <dc:title>Four to Doomsday</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00sftym#programme">
+      <dc:title>Kinda</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00sfv02#programme">
+      <dc:title>The Visitation</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00sfv36#programme">
+      <dc:title>Black Orchid</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00sfv3z#programme">
+      <dc:title>Earthshock</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00sfv4t#programme">
+      <dc:title>Time-Flight</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00sfv41#programme">
+      <dc:title>Earthshock Omnibus</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</po:position> 
+    </po:Series>
+  </po:series>
+
+</po:Series>
+
+<po:Brand rdf:about="http://bbc.co.uk/programmes/b006q2x0#programme">
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00sftwn#programme"/>
+</po:Brand>
+
+
+
+</rdf:RDF>

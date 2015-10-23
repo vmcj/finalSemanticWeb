@@ -1,0 +1,507 @@
+@prefix : <http://www.few.vu.nl/~mvr320/ontologies/week2#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.few.vu.nl/~mvr320/ontologies/week2> .
+
+<http://www.few.vu.nl/~mvr320/ontologies/week2> rdf:type owl:Ontology .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#acts_in
+
+:acts_in rdf:type owl:ObjectProperty ;
+         
+         owl:propertyDisjointWith :hasActor .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#advised_to
+
+:advised_to rdf:type owl:ObjectProperty ;
+            
+            owl:inverseOf :advised_to .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#directs
+
+:directs rdf:type owl:ObjectProperty ;
+         
+         rdfs:subPropertyOf :guidingInMediaOutcome ;
+         
+         owl:propertyDisjointWith :isDirectedBy .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#guidingInMediaOutcome
+
+:guidingInMediaOutcome rdf:type owl:ObjectProperty ;
+                       
+                       owl:propertyDisjointWith :isDirectedBy .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#hasActor
+
+:hasActor rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#hasExampleContent
+
+:hasExampleContent rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#has_episode
+
+:has_episode rdf:type owl:ObjectProperty ;
+             
+             owl:inverseOf :isEpisodeOf .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#isDirectedBy
+
+:isDirectedBy rdf:type owl:ObjectProperty ;
+              
+              rdfs:subPropertyOf :isGuidedBy .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#isEpisodeOf
+
+:isEpisodeOf rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#isExampleContent
+
+:isExampleContent rdf:type owl:ObjectProperty ;
+                  
+                  owl:inverseOf :hasExampleContent .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#isGuidedBy
+
+:isGuidedBy rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#isMentionedBy
+
+:isMentionedBy rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#isWrittenBy
+
+:isWrittenBy rdf:type owl:ObjectProperty ;
+             
+             rdfs:subPropertyOf :isGuidedBy ;
+             
+             owl:propertyDisjointWith :writes .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#is_advised
+
+:is_advised rdf:type owl:ObjectProperty ;
+            
+            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#mentions
+
+:mentions rdf:type owl:ObjectProperty ;
+          
+          owl:inverseOf :isMentionedBy .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#writes
+
+:writes rdf:type owl:ObjectProperty ;
+        
+        rdfs:subPropertyOf :guidingInMediaOutcome .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://dbpedia.org/ontology/Actor
+
+<http://dbpedia.org/ontology/Actor> rdf:type owl:Class ;
+                                    
+                                    owl:equivalentClass :Actor ,
+                                                        <http://www.wikidata.org/entity/Q33999> .
+
+
+
+###  http://dbpedia.org/ontology/Film
+
+<http://dbpedia.org/ontology/Film> rdf:type owl:Class ;
+                                   
+                                   owl:equivalentClass :Movie ;
+                                   
+                                   rdfs:subClassOf <http://dbpedia.org/ontology/Work> .
+
+
+
+###  http://dbpedia.org/ontology/TelevisionEpisode
+
+<http://dbpedia.org/ontology/TelevisionEpisode> rdf:type owl:Class ;
+                                                
+                                                owl:equivalentClass <http://schema.org/TVEpisode> ,
+                                                                    :Episode ;
+                                                
+                                                rdfs:subClassOf <http://dbpedia.org/ontology/Work> .
+
+
+
+###  http://dbpedia.org/ontology/TelevisionShow
+
+<http://dbpedia.org/ontology/TelevisionShow> rdf:type owl:Class ;
+                                             
+                                             owl:equivalentClass :TV_Showable ,
+                                                                 <http://www.wikidata.org/entity/Q15416> ;
+                                             
+                                             rdfs:subClassOf <http://dbpedia.org/ontology/Work> .
+
+
+
+###  http://dbpedia.org/ontology/Work
+
+<http://dbpedia.org/ontology/Work> rdf:type owl:Class .
+
+
+
+###  http://purl.org/ontology/po/Clip
+
+<http://purl.org/ontology/po/Clip> rdf:type owl:Class ;
+                                   
+                                   owl:equivalentClass :TVClip .
+
+
+
+###  http://purl.org/ontology/po/Episode
+
+<http://purl.org/ontology/po/Episode> rdf:type owl:Class ;
+                                      
+                                      owl:equivalentClass :Episode .
+
+
+
+###  http://purl.org/ontology/po/Series
+
+<http://purl.org/ontology/po/Series> rdf:type owl:Class ;
+                                     
+                                     owl:equivalentClass :TV_Serie .
+
+
+
+###  http://rdf.freebase.com/ns/film.film
+
+<http://rdf.freebase.com/ns/film.film> rdf:type owl:Class ;
+                                       
+                                       owl:equivalentClass :Movie ;
+                                       
+                                       rdfs:comment "Wallace & Gromit geeft hier problemen." .
+
+
+
+###  http://rdf.freebase.com/ns/tv.tv_series_episode
+
+<http://rdf.freebase.com/ns/tv.tv_series_episode> rdf:type owl:Class ;
+                                                  
+                                                  owl:equivalentClass :Episode .
+
+
+
+###  http://schema.org/MediaObject
+
+<http://schema.org/MediaObject> rdf:type owl:Class ;
+                                
+                                rdfs:subClassOf :Media .
+
+
+
+###  http://schema.org/Movie
+
+<http://schema.org/Movie> rdf:type owl:Class ;
+                          
+                          owl:equivalentClass :Movie .
+
+
+
+###  http://schema.org/TVClip
+
+<http://schema.org/TVClip> rdf:type owl:Class ;
+                           
+                           owl:equivalentClass :TVClip .
+
+
+
+###  http://schema.org/TVEpisode
+
+<http://schema.org/TVEpisode> rdf:type owl:Class ;
+                              
+                              owl:equivalentClass :Episode .
+
+
+
+###  http://schema.org/TVSeason
+
+<http://schema.org/TVSeason> rdf:type owl:Class ;
+                             
+                             owl:equivalentClass :Season .
+
+
+
+###  http://schema.org/Thing
+
+<http://schema.org/Thing> rdf:type owl:Class ;
+                          
+                          owl:equivalentClass :rdfsschemaThing .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#Actor
+
+:Actor rdf:type owl:Class ;
+       
+       owl:equivalentClass [ rdf:type owl:Restriction ;
+                             owl:onProperty :acts_in ;
+                             owl:someValuesFrom :Media
+                           ] ;
+    	owl:equivalentClass [ rdf:type owl:Restriction ;
+                             owl:onProperty <http://dbpedia.org/ontology/starring> ;
+                             owl:someValuesFrom :Media
+                           ] ;
+       
+       rdfs:subClassOf :Plays .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#Clip
+
+:Clip rdf:type owl:Class ;
+      
+      rdfs:subClassOf :Media ;
+      
+      owl:disjointWith :Movie .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#Director
+
+:Director rdf:type owl:Class ;
+          
+          owl:equivalentClass [ rdf:type owl:Restriction ;
+                                owl:onProperty :directs ;
+                                owl:someValuesFrom :Media
+                              ] ;
+          
+          rdfs:subClassOf :Guide .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#Episode
+
+:Episode rdf:type owl:Class ;
+         
+         owl:equivalentClass <http://www.ontotext.com/proton/protonext#TelevisionEpisode> ,
+                             <pext:TelevisionEpisode> ;
+         
+         rdfs:subClassOf :TVConcepts .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#Examples
+
+:Examples rdf:type owl:Class ;
+          
+          owl:equivalentClass [ rdf:type owl:Restriction ;
+                                owl:onProperty :isExampleContent ;
+                                owl:someValuesFrom :Media
+                              ] ;
+          
+          rdfs:subClassOf :Media .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#Guide
+
+:Guide rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Person .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#Media
+
+:Media rdf:type owl:Class .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#Movie
+
+:Movie rdf:type owl:Class ;
+       
+       owl:equivalentClass <http://www.ontotext.com/proton/protonext#Movie> ,
+                           <pext:Movie> ;
+       
+       rdfs:subClassOf :Media ,
+                       :TV_Showable ;
+       
+       owl:disjointWith :TVConcepts .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#Person
+
+:Person rdf:type owl:Class .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#Plays
+
+:Plays rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Person .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#Season
+
+:Season rdf:type owl:Class ;
+        
+        rdfs:subClassOf :TVConcepts .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#TVClip
+
+:TVClip rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Clip ,
+                        :TVConcepts .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#TVConcepts
+
+:TVConcepts rdf:type owl:Class ;
+            
+            rdfs:subClassOf :Media .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#TV_Serie
+
+:TV_Serie rdf:type owl:Class ;
+          
+          rdfs:subClassOf :TVConcepts ,
+                          :TV_Showable .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#TV_Showable
+
+:TV_Showable rdf:type owl:Class ;
+             
+             owl:equivalentClass <http://www.ontotext.com/proton/protonext#TelevisionShow> ,
+                                 <pext:TelevisionProduct> ;
+             
+             rdfs:subClassOf :Media .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#Writer
+
+:Writer rdf:type owl:Class ;
+        
+        owl:equivalentClass [ rdf:type owl:Restriction ;
+                              owl:onProperty :writes ;
+                              owl:someValuesFrom :Media
+                            ] ;
+        
+        rdfs:subClassOf :Guide .
+
+
+
+###  http://www.few.vu.nl/~mvr320/ontologies/week2#rdfsschemaThing
+
+:rdfsschemaThing rdf:type owl:Class .
+
+
+
+###  http://www.ontotext.com/proton/protonext#Movie
+
+<http://www.ontotext.com/proton/protonext#Movie> rdf:type owl:Class .
+
+
+
+###  http://www.ontotext.com/proton/protonext#TelevisionEpisode
+
+<http://www.ontotext.com/proton/protonext#TelevisionEpisode> rdf:type owl:Class .
+
+
+
+###  http://www.ontotext.com/proton/protonext#TelevisionShow
+
+<http://www.ontotext.com/proton/protonext#TelevisionShow> rdf:type owl:Class .
+
+
+
+###  http://www.wikidata.org/entity/Q15416
+
+<http://www.wikidata.org/entity/Q15416> rdf:type owl:Class .
+
+
+
+###  http://www.wikidata.org/entity/Q33999
+
+<http://www.wikidata.org/entity/Q33999> rdf:type owl:Class .
+
+
+
+###  pext:Movie
+
+<pext:Movie> rdf:type owl:Class .
+
+
+
+###  pext:TelevisionEpisode
+
+<pext:TelevisionEpisode> rdf:type owl:Class .
+
+
+
+###  pext:TelevisionProduct
+
+<pext:TelevisionProduct> rdf:type owl:Class .
+
+
+
+
+###  Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net
+

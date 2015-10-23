@@ -1,0 +1,21 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+dbo:TelevisionSeason	rdf:type	owl:Class ;
+	owl:sameAs	dbo:TelevisionSeason .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+dbo:TelevisionSeason	rdfs:subClassOf	dbo:Work ;
+	rdfs:label	"\uD154\uB808\uBE44\uC804 \uC2DC\uC98C"@ko ,
+		"\u03C4\u03B7\u03BB\u03B5\u03BF\u03C0\u03C4\u03B9\u03BA\u03AE \u03C3\u03B5\u03B6\u03CC\u03BD"@el ,
+		"televisie seizoen"@nl ,
+		"television season"@en ,
+		"Fernsehstaffel"@de ;
+	rdfs:isDefinedBy	dbo: .
+@prefix wdrs:	<http://www.w3.org/2007/05/powder-s#> .
+dbo:TelevisionSeason	wdrs:describedby	<http://dbpedia.org/ontology/data/definitions.ttl> .
+@prefix ns5:	<http://www.w3.org/ns/prov#> .
+@prefix ns6:	<http://mappings.dbpedia.org/index.php/OntologyClass:> .
+dbo:TelevisionSeason	ns5:wasDerivedFrom	ns6:TelevisionSeason .
+@prefix ns7:	<http://open.vocab.org/terms/> .
+dbo:	ns7:defines	dbo:TelevisionSeason .
+<http://dbpedia.org/ontology/data/definitions.ttl>	ns7:describes	dbo:TelevisionSeason .

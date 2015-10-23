@@ -1,0 +1,62 @@
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+dbo:brand	rdfs:range	dbo:TelevisionShow .
+dbo:coExecutiveProducer	rdfs:domain	dbo:TelevisionShow .
+dbo:coProducer	rdfs:domain	dbo:TelevisionShow .
+dbo:endingTheme	rdfs:domain	dbo:TelevisionShow .
+dbo:show	rdfs:range	dbo:TelevisionShow .
+dbo:storyEditor	rdfs:domain	dbo:TelevisionShow .
+dbo:televisionSeries	rdfs:range	dbo:TelevisionShow .
+dbo:tvComId	rdfs:domain	dbo:TelevisionShow .
+dbo:tvShow	rdfs:range	dbo:TelevisionShow .
+dbo:showJudge	rdfs:domain	dbo:TelevisionShow .
+dbo:presenter	rdfs:domain	dbo:TelevisionShow .
+dbo:numberOfEpisodes	rdfs:domain	dbo:TelevisionShow .
+dbo:openingTheme	rdfs:domain	dbo:TelevisionShow .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+dbo:TelevisionShow	rdf:type	owl:Class .
+@prefix wikidata:	<http://www.wikidata.org/entity/> .
+dbo:TelevisionShow	owl:equivalentClass	wikidata:Q15416 ;
+	owl:sameAs	dbo:TelevisionShow ;
+	rdfs:subClassOf	dbo:Work ;
+	rdfs:label	"televisie show"@nl ,
+		"\u00E9mission de t\u00E9l\u00E9vision"@fr ,
+		"television show"@en ,
+		"\u03C4\u03B7\u03BB\u03B5\u03BF\u03C0\u03C4\u03B9\u03BA\u03AE \u03C3\u03B5\u03B9\u03C1\u03AC"@el ,
+		"\u30C6\u30EC\u30D3\u756A\u7D44"@ja ,
+		"televizijska oddaja"@sl ,
+		"serie de televisi\u00F3n"@es ,
+		"Fernsehsendung"@de ;
+	rdfs:isDefinedBy	dbo: .
+@prefix wdrs:	<http://www.w3.org/2007/05/powder-s#> .
+dbo:TelevisionShow	wdrs:describedby	<http://dbpedia.org/ontology/data/definitions.ttl> .
+@prefix ns6:	<http://www.w3.org/ns/prov#> .
+@prefix ns7:	<http://mappings.dbpedia.org/index.php/OntologyClass:> .
+dbo:TelevisionShow	ns6:wasDerivedFrom	ns7:TelevisionShow .
+dbo:creativeDirector	rdfs:domain	dbo:TelevisionShow .
+dbo:numberOfSeasons	rdfs:domain	dbo:TelevisionShow .
+@prefix ns8:	<http://open.vocab.org/terms/> .
+dbo:	ns8:defines	dbo:TelevisionShow .
+<http://dbpedia.org/ontology/data/definitions.ttl>	ns8:describes	dbo:TelevisionShow .@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+dbo:televisionSeries	rdf:type	rdf:Property .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+dbo:televisionSeries	rdf:type	owl:ObjectProperty .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns4:	<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+dbo:televisionSeries	rdfs:subPropertyOf	ns4:hasMember ;
+	owl:sameAs	dbo:televisionSeries ;
+	rdfs:label	"\u03C4\u03B7\u03BB\u03B5\u03BF\u03C0\u03C4\u03B9\u03BA\u03AD\u03C2 \u03C3\u03B5\u03B9\u03C1\u03AD\u03C2"@el ,
+		"television series"@en ,
+		"Fernsehserie"@de ;
+	rdfs:range	dbo:TelevisionShow ;
+	rdfs:isDefinedBy	dbo: .
+@prefix wdrs:	<http://www.w3.org/2007/05/powder-s#> .
+dbo:televisionSeries	wdrs:describedby	<http://dbpedia.org/ontology/data/definitions.ttl> .
+@prefix ns6:	<http://www.w3.org/ns/prov#> .
+@prefix ns7:	<http://mappings.dbpedia.org/index.php/OntologyProperty:> .
+dbo:televisionSeries	ns6:wasDerivedFrom	ns7:televisionSeries .
+@prefix ns8:	<http://open.vocab.org/terms/> .
+dbo:	ns8:defines	dbo:televisionSeries .
+<http://dbpedia.org/ontology/data/definitions.ttl>	ns8:describes	dbo:televisionSeries .

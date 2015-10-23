@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf      = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs     = "http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl      = "http://www.w3.org/2002/07/owl#"
+         xmlns:foaf     = "http://xmlns.com/foaf/0.1/"
+         xmlns:po       = "http://purl.org/ontology/po/"
+         xmlns:mo       = "http://purl.org/ontology/mo/"
+         xmlns:skos     = "http://www.w3.org/2008/05/skos#"
+         xmlns:time     = "http://www.w3.org/2006/time#"
+         xmlns:dc       = "http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms  = "http://purl.org/dc/terms/"
+         xmlns:wgs84_pos= "http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:timeline = "http://purl.org/NET/c4dm/timeline.owl#"
+         xmlns:event    = "http://purl.org/NET/c4dm/event.owl#">
+
+<rdf:Description rdf:about="http://bbc.co.uk/programmes/p01m3n7m.rdf">
+  <rdfs:label>Description of the clip "Doctor Who: First Preview of the Christmas Special"</rdfs:label>
+  <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-23T20:28:07Z</dcterms:created>
+  <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-23T20:28:07Z</dcterms:modified>
+  <foaf:primaryTopic rdf:resource="http://bbc.co.uk/programmes/p01m3n7m#programme"/>
+</rdf:Description>
+
+<po:Clip rdf:about="http://bbc.co.uk/programmes/p01m3n7m#programme">
+
+  <dc:title>Doctor Who: First Preview of the Christmas Special</dc:title>
+  <po:short_synopsis>This Christmas&#8230; Silence will fall!</po:short_synopsis>
+  <po:medium_synopsis>This Christmas&#8230; Silence will fall!</po:medium_synopsis>
+  <po:long_synopsis>This Christmas&#8230; Silence will fall!</po:long_synopsis>
+
+  <po:image_pid>p01m3n7l</po:image_pid>
+
+  
+
+  
+
+  <po:genre rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre" />
+
+
+
+
+
+  <po:version rdf:resource="http://bbc.co.uk/programmes/p01m3n7r#programme" />
+
+</po:Clip>
+
+
+
+<po:Brand rdf:about="http://bbc.co.uk/programmes/b006q2x0#programme">
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p01m3n7m#programme"/>
+</po:Brand>
+
+
+
+</rdf:RDF>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf      = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs     = "http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl      = "http://www.w3.org/2002/07/owl#"
+         xmlns:foaf     = "http://xmlns.com/foaf/0.1/"
+         xmlns:po       = "http://purl.org/ontology/po/"
+         xmlns:mo       = "http://purl.org/ontology/mo/"
+         xmlns:skos     = "http://www.w3.org/2008/05/skos#"
+         xmlns:time     = "http://www.w3.org/2006/time#"
+         xmlns:dc       = "http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms  = "http://purl.org/dc/terms/"
+         xmlns:wgs84_pos= "http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:timeline = "http://purl.org/NET/c4dm/timeline.owl#"
+         xmlns:event    = "http://purl.org/NET/c4dm/event.owl#">
+
+<rdf:Description rdf:about="http://bbc.co.uk/programmes/b06f2y7r.rdf">
+  <rdfs:label>Description of the series "Series 9"</rdfs:label>
+  <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-11T11:41:11+01:00</dcterms:created>
+  <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-11T11:41:11+01:00</dcterms:modified>
+  <foaf:primaryTopic rdf:resource="http://bbc.co.uk/programmes/b06f2y7r#programme"/>
+</rdf:Description>
+
+<po:Series rdf:about="http://bbc.co.uk/programmes/b06f2y7r#programme">
+
+  <po:pid>b06f2y7r</po:pid>
+  <dc:title>Series 9</dc:title>
+  <po:short_synopsis>Adventures across time and space with the time-travelling hero.</po:short_synopsis>
+  <po:medium_synopsis>Adventures across time and space with the time-travelling hero.</po:medium_synopsis>
+  
+
+
+  
+
+  <po:genre rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre" />
+
+
+  
+
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p033d4b9#programme"/>
+
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b06dpx8x#programme">
+      <dc:title>The Magician&#39;s Apprentice</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/p0326pdj#programme">
+      <dc:title>New Series Prologue</dc:title> 
+    
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b06fq0z9#programme">
+      <dc:title>The Witch&#39;s Familiar</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b06gxt5g#programme">
+      <dc:title>Under the Lake</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b06j59bk#programme">
+      <dc:title>Before the Flood</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b06kv29n#programme">
+      <dc:title>The Girl Who Died</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b06kybtj#programme">
+      <dc:title>The Woman Who Lived</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</po:position> 
+    </po:Episode>
+  </po:episode>
+
+
+</po:Series>
+
+<po:Brand rdf:about="http://bbc.co.uk/programmes/b006q2x0#programme">
+  <po:series rdf:resource="http://bbc.co.uk/programmes/b06f2y7r#programme"/>
+</po:Brand>
+
+
+
+</rdf:RDF>

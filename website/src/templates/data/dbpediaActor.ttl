@@ -1,0 +1,46 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+dbo:Actor	rdf:type	owl:Class .
+@prefix wikidata:	<http://www.wikidata.org/entity/> .
+dbo:Actor	owl:equivalentClass	wikidata:Q33999 ;
+	owl:sameAs	dbo:Actor .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+dbo:Actor	rdfs:subClassOf	dbo:Artist ;
+	rdfs:label	"aktor"@pl ,
+		"actor"@en ,
+		"attore"@it ,
+		"ator"@pt ,
+		"\u4FF3\u512A"@ja ,
+		"\uC601\uD654\uC778"@ko ,
+		"acteur"@fr ,
+		"\u03B7\u03B8\u03BF\u03C0\u03BF\u03B9\u03CC\u03C2"@el ,
+		"Schauspieler"@de ,
+		"acteur"@nl ,
+		"aktore"@eu ,
+		"actor"@es ,
+		"\u6F14\u54E1"@zh ;
+	rdfs:isDefinedBy	dbo: ;
+	rdfs:comment	"An actor or actress is a person who acts in a dramatic production and who works in film, television, theatre, or radio in that capacity."@en ,
+		"\u039C\u03B9\u03B1 \u03B7\u03B8\u03BF\u03C0\u03BF\u03B9\u03CC\u03C2 \u03AE \u03AD\u03BD\u03B1\u03C2 \u03B7\u03B8\u03BF\u03C0\u03BF\u03B9\u03CC\u03C2 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03AD\u03BD\u03B1 \u03AC\u03C4\u03BF\u03BC\u03BF \u03C0\u03BF\u03C5 \u03C0\u03B1\u03AF\u03B6\u03B5\u03B9 \u03C3\u03B5 \u03BC\u03B9\u03B1 \u03B4\u03C1\u03B1\u03BC\u03B1\u03C4\u03B9\u03BA\u03AE \u03C0\u03B1\u03C1\u03B1\u03B3\u03C9\u03B3\u03AE \u03BA\u03B1\u03B9 \u03C0\u03BF\u03C5 \u03B5\u03C1\u03B3\u03AC\u03B6\u03B5\u03C4\u03B1\u03B9 \u03C3\u03C4\u03BF \u03C7\u03CE\u03C1\u03BF \u03C4\u03BF\u03C5 \u03BA\u03B9\u03BD\u03B7\u03BC\u03B1\u03C4\u03BF\u03B3\u03C1\u03AC\u03C6\u03BF\u03C5, \u03C4\u03B7\u03C2 \u03C4\u03B7\u03BB\u03B5\u03CC\u03C1\u03B1\u03C3\u03B7\u03C2, \u03C4\u03BF\u03C5 \u03B8\u03B5\u03AC\u03C4\u03C1\u03BF\u03C5, \u03AE \u03C4\u03BF \u03C1\u03B1\u03B4\u03B9\u03CC\u03C6\u03C9\u03BD\u03BF."@el ,
+		"Un attore o un attrice \u00E8 una persona che recita in una produzione teatrale, televisiva, cinematografica o radiofonica."@it .
+@prefix wdrs:	<http://www.w3.org/2007/05/powder-s#> .
+dbo:Actor	wdrs:describedby	<http://dbpedia.org/ontology/data/definitions.ttl> .
+@prefix ns6:	<http://www.w3.org/ns/prov#> .
+@prefix ns7:	<http://mappings.dbpedia.org/index.php/OntologyClass:> .
+dbo:Actor	ns6:wasDerivedFrom	ns7:Actor .
+dbo:AdultActor	rdfs:subClassOf	dbo:Actor .
+dbo:VoiceActor	rdfs:subClassOf	dbo:Actor .
+dbo:arielAward	rdfs:domain	dbo:Actor .
+dbo:geminiAward	rdfs:domain	dbo:Actor .
+dbo:goldenCalfAward	rdfs:domain	dbo:Actor .
+dbo:goldenRaspberryAward	rdfs:domain	dbo:Actor .
+dbo:iftaAward	rdfs:domain	dbo:Actor .
+dbo:laurenceOlivierAward	rdfs:domain	dbo:Actor .
+dbo:naacpImageAward	rdfs:domain	dbo:Actor .
+dbo:nationalFilmAward	rdfs:domain	dbo:Actor .
+dbo:screenActorsGuildAward	rdfs:domain	dbo:Actor .
+dbo:starring	rdfs:range	dbo:Actor .
+@prefix ns8:	<http://open.vocab.org/terms/> .
+dbo:	ns8:defines	dbo:Actor .
+<http://dbpedia.org/ontology/data/definitions.ttl>	ns8:describes	dbo:Actor .

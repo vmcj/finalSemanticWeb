@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf      = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs     = "http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl      = "http://www.w3.org/2002/07/owl#"
+         xmlns:foaf     = "http://xmlns.com/foaf/0.1/"
+         xmlns:po       = "http://purl.org/ontology/po/"
+         xmlns:mo       = "http://purl.org/ontology/mo/"
+         xmlns:skos     = "http://www.w3.org/2008/05/skos#"
+         xmlns:time     = "http://www.w3.org/2006/time#"
+         xmlns:dc       = "http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms  = "http://purl.org/dc/terms/"
+         xmlns:wgs84_pos= "http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:timeline = "http://purl.org/NET/c4dm/timeline.owl#"
+         xmlns:event    = "http://purl.org/NET/c4dm/event.owl#">
+
+<rdf:Description rdf:about="http://bbc.co.uk/programmes/p0056cjg.rdf">
+  <rdfs:label>Description of the series "Dreamland"</rdfs:label>
+  <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-11-18T14:44:35Z</dcterms:created>
+  <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-08-07T15:57:31+01:00</dcterms:modified>
+  <foaf:primaryTopic rdf:resource="http://bbc.co.uk/programmes/p0056cjg#programme"/>
+</rdf:Description>
+
+<po:Series rdf:about="http://bbc.co.uk/programmes/p0056cjg#programme">
+
+  <po:pid>p0056cjg</po:pid>
+  <dc:title>Dreamland</dc:title>
+  <po:short_synopsis>The Doctor discovers an alien army hatching beneath the New Mexico desert.</po:short_synopsis>
+  <po:medium_synopsis>The Doctor discovers an alien army hatching beneath the New Mexico desert.</po:medium_synopsis>
+  <po:long_synopsis>America, 1958.  The Doctor makes a new friend, Cassie who reveals that anyone approaching the Top Secret Dreamland Army base goes missing. The Doctor discovers an alien army hatching beneath the New Mexico  desert while inside Dreamland, survivors of an extraterrestrial war possess a weapon powerful enough to destroy Earth...</po:long_synopsis>
+
+  <foaf:depiction rdf:resource="http://www.bbc.co.uk/iplayer/images/series/p0056cjg_512_288.jpg"/>
+
+  
+
+  <po:genre rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre" />
+
+  <po:format rdf:resource="http://bbc.co.uk/programmes/formats/animation#format" />
+
+  <po:masterbrand rdf:resource="http://bbc.co.uk/bbcone#service"/>
+
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00j5g42#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00j5g7r#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00j5gdm#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00j5g5f#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00j5gcf#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00j5g93#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00j5g3s#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00j5g4l#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00j5gbb#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00j5g30#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00j5gdw#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00j5g9n#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00j5g89#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00j5gbs#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00j5ggg#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00j5g6g#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00j5gcz#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00vfnh0#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p020dvvj#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p0056dv2#programme"/>
+
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/p0057t3p#programme">
+      <dc:title>Episode One</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/p0057t52#programme">
+      <dc:title>Episode Two</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/p0057t6g#programme">
+      <dc:title>Episode Three</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/p0059fpn#programme">
+      <dc:title>Episode Four</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/p0059ws9#programme">
+      <dc:title>Episode Five</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/p005bllg#programme">
+      <dc:title>Episode Six</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</po:position> 
+    </po:Episode>
+  </po:episode>
+
+
+</po:Series>
+
+<po:Brand rdf:about="http://bbc.co.uk/programmes/b006q2x0#programme">
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p0056cjg#programme"/>
+</po:Brand>
+
+
+
+</rdf:RDF>

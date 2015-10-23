@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf      = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs     = "http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl      = "http://www.w3.org/2002/07/owl#"
+         xmlns:foaf     = "http://xmlns.com/foaf/0.1/"
+         xmlns:po       = "http://purl.org/ontology/po/"
+         xmlns:mo       = "http://purl.org/ontology/mo/"
+         xmlns:skos     = "http://www.w3.org/2008/05/skos#"
+         xmlns:time     = "http://www.w3.org/2006/time#"
+         xmlns:dc       = "http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms  = "http://purl.org/dc/terms/"
+         xmlns:wgs84_pos= "http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:timeline = "http://purl.org/NET/c4dm/timeline.owl#"
+         xmlns:event    = "http://purl.org/NET/c4dm/event.owl#">
+
+<rdf:Description rdf:about="http://bbc.co.uk/programmes/b0103y2x.rdf">
+  <rdfs:label>Description of the series "Series 6"</rdfs:label>
+  <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-18T15:44:29Z</dcterms:created>
+  <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-07T15:25:33Z</dcterms:modified>
+  <foaf:primaryTopic rdf:resource="http://bbc.co.uk/programmes/b0103y2x#programme"/>
+</rdf:Description>
+
+<po:Series rdf:about="http://bbc.co.uk/programmes/b0103y2x#programme">
+
+  <po:pid>b0103y2x</po:pid>
+  <dc:title>Series 6</dc:title>
+  <po:short_synopsis>Adventures across history and space with the time-travelling hero.</po:short_synopsis>
+  <po:medium_synopsis>Adventures across history and space with the time-travelling hero.</po:medium_synopsis>
+  
+
+  <foaf:depiction rdf:resource="http://www.bbc.co.uk/iplayer/images/series/b0103y2x_512_288.jpg"/>
+
+  
+
+  <po:genre rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre" />
+
+
+  
+
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00lfh8d#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00ldj9w#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00l8hrd#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00l7v6f#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00l7byl#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00l668p#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00l3s6h#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00l31gn#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kyd8j#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00ksk63#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00jm429#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00jvdsr#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00jpwtr#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00ghtyc#programme"/>
+
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b010tb7q#programme">
+      <dc:title>The Impossible Astronaut</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b010y5l3#programme">
+      <dc:title>Day of the Moon</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b0110g4b#programme">
+      <dc:title>The Curse of the Black Spot</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b011884d#programme">
+      <dc:title>The Doctor&#39;s Wife</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b011fnd4#programme">
+      <dc:title>The Rebel Flesh</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b011lqwt#programme">
+      <dc:title>The Almost People</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b011rf7y#programme">
+      <dc:title>A Good Man Goes to War</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b0146h0q#programme">
+      <dc:title>Let&#39;s Kill Hitler</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b014983t#programme">
+      <dc:title>Night Terrors</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b014j7x7#programme">
+      <dc:title>The Girl Who Waited</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b014vy02#programme">
+      <dc:title>The God Complex</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b0156hh8#programme">
+      <dc:title>Closing Time</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b015p5kc#programme">
+      <dc:title>The Wedding of River Song</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</po:position> 
+    </po:Episode>
+  </po:episode>
+
+
+</po:Series>
+
+<po:Brand rdf:about="http://bbc.co.uk/programmes/b006q2x0#programme">
+  <po:series rdf:resource="http://bbc.co.uk/programmes/b0103y2x#programme"/>
+</po:Brand>
+
+
+
+</rdf:RDF>

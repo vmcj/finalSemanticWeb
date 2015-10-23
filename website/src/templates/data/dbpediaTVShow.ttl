@@ -1,0 +1,22 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+dbo:tvShow	rdf:type	owl:ObjectProperty ,
+		rdf:Property .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns4:	<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+dbo:tvShow	rdfs:subPropertyOf	ns4:isParticipantIn ;
+	owl:sameAs	dbo:tvShow ;
+	rdfs:label	"Fernsehsendung"@de ,
+		"tvShow"@en ;
+	rdfs:domain	dbo:Person ;
+	rdfs:range	dbo:TelevisionShow ;
+	rdfs:isDefinedBy	dbo: .
+@prefix wdrs:	<http://www.w3.org/2007/05/powder-s#> .
+dbo:tvShow	wdrs:describedby	<http://dbpedia.org/ontology/data/definitions.ttl> .
+@prefix ns6:	<http://www.w3.org/ns/prov#> .
+@prefix ns7:	<http://mappings.dbpedia.org/index.php/OntologyProperty:> .
+dbo:tvShow	ns6:wasDerivedFrom	ns7:tvShow .
+@prefix ns8:	<http://open.vocab.org/terms/> .
+dbo:	ns8:defines	dbo:tvShow .
+<http://dbpedia.org/ontology/data/definitions.ttl>	ns8:describes	dbo:tvShow .

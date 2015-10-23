@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf      = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs     = "http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl      = "http://www.w3.org/2002/07/owl#"
+         xmlns:foaf     = "http://xmlns.com/foaf/0.1/"
+         xmlns:po       = "http://purl.org/ontology/po/"
+         xmlns:mo       = "http://purl.org/ontology/mo/"
+         xmlns:skos     = "http://www.w3.org/2008/05/skos#"
+         xmlns:time     = "http://www.w3.org/2006/time#"
+         xmlns:dc       = "http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms  = "http://purl.org/dc/terms/"
+         xmlns:wgs84_pos= "http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:timeline = "http://purl.org/NET/c4dm/timeline.owl#"
+         xmlns:event    = "http://purl.org/NET/c4dm/event.owl#">
+
+<rdf:Description rdf:about="http://bbc.co.uk/programmes/p00kl3tj.rdf">
+  <rdfs:label>Description of the series "Season 2"</rdfs:label>
+  <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-21T09:38:06+01:00</dcterms:created>
+  <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-08-13T08:24:14+01:00</dcterms:modified>
+  <foaf:primaryTopic rdf:resource="http://bbc.co.uk/programmes/p00kl3tj#programme"/>
+</rdf:Description>
+
+<po:Series rdf:about="http://bbc.co.uk/programmes/p00kl3tj#programme">
+
+  <po:pid>p00kl3tj</po:pid>
+  <dc:title>Season 2</dc:title>
+  <po:short_synopsis>The Daleks invade Earth, the Doctor faces a fellow time traveller and bids a sad farewell&#8230;</po:short_synopsis>
+  <po:medium_synopsis>The Daleks invade Earth, the Doctor faces a fellow time traveller and bids farewell to Susan, Ian and Barbera&#8230; But there&#8217;s still time to welcome Vicki and Steven to the TARDIS.</po:medium_synopsis>
+  
+
+
+  
+
+  <po:genre rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre" />
+
+
+  
+
+
+
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00kl3vr#programme">
+      <dc:title>Planet of Giants</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00kl3wf#programme">
+      <dc:title>The Dalek Invasion of Earth</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00kl40p#programme">
+      <dc:title>The Rescue</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00kl41h#programme">
+      <dc:title>The Romans</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00kl41v#programme">
+      <dc:title>The Web Planet</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00kl42q#programme">
+      <dc:title>The Crusade</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00kl43q#programme">
+      <dc:title>The Space Museum</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00kl45z#programme">
+      <dc:title>The Chase</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00kl49h#programme">
+      <dc:title>The Time Meddler</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</po:position> 
+    </po:Series>
+  </po:series>
+
+</po:Series>
+
+<po:Brand rdf:about="http://bbc.co.uk/programmes/b006q2x0#programme">
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00kl3tj#programme"/>
+</po:Brand>
+
+
+
+</rdf:RDF>

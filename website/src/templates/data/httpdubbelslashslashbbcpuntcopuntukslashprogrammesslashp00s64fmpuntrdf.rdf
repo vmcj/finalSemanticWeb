@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf      = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs     = "http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl      = "http://www.w3.org/2002/07/owl#"
+         xmlns:foaf     = "http://xmlns.com/foaf/0.1/"
+         xmlns:po       = "http://purl.org/ontology/po/"
+         xmlns:mo       = "http://purl.org/ontology/mo/"
+         xmlns:skos     = "http://www.w3.org/2008/05/skos#"
+         xmlns:time     = "http://www.w3.org/2006/time#"
+         xmlns:dc       = "http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms  = "http://purl.org/dc/terms/"
+         xmlns:wgs84_pos= "http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:timeline = "http://purl.org/NET/c4dm/timeline.owl#"
+         xmlns:event    = "http://purl.org/NET/c4dm/event.owl#">
+
+<rdf:Description rdf:about="http://bbc.co.uk/programmes/p00s64fm.rdf">
+  <rdfs:label>Description of the series "Season 18"</rdfs:label>
+  <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-08T09:02:25+01:00</dcterms:created>
+  <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-08-06T09:10:05+01:00</dcterms:modified>
+  <foaf:primaryTopic rdf:resource="http://bbc.co.uk/programmes/p00s64fm#programme"/>
+</rdf:Description>
+
+<po:Series rdf:about="http://bbc.co.uk/programmes/p00s64fm#programme">
+
+  <po:pid>p00s64fm</po:pid>
+  <dc:title>Season 18</dc:title>
+  <po:short_synopsis>It&#39;s the end, but the moment has been prepared for. The Fourth Doctor&#39;s epic final season!</po:short_synopsis>
+  <po:medium_synopsis>The Fourth Doctor&#39;s farewell season saw the Master return and Romana and K-9 elect to remain in E-Space. There were new companions in the shape of Adric, Nyssa and Tegan Jovanka.</po:medium_synopsis>
+  
+
+
+  
+
+  <po:genre rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre" />
+
+
+  
+
+
+
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00s64fw#programme">
+      <dc:title>The Leisure Hive</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00s64gt#programme">
+      <dc:title>Meglos</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00s64hd#programme">
+      <dc:title>Full Circle</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00s64kw#programme">
+      <dc:title>State of Decay</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00s64lj#programme">
+      <dc:title>Warriors&#39; Gate</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00s64mg#programme">
+      <dc:title>The Keeper of Traken</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</po:position> 
+    </po:Series>
+  </po:series>
+  <po:series>
+    <po:Series rdf:about="http://bbc.co.uk/programmes/p00s64mz#programme">
+      <dc:title>Logopolis</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</po:position> 
+    </po:Series>
+  </po:series>
+
+</po:Series>
+
+<po:Brand rdf:about="http://bbc.co.uk/programmes/b006q2x0#programme">
+  <po:series rdf:resource="http://bbc.co.uk/programmes/p00s64fm#programme"/>
+</po:Brand>
+
+
+
+</rdf:RDF>

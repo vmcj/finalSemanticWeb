@@ -1,0 +1,28 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+dbo:producer	rdf:type	owl:ObjectProperty ,
+		rdf:Property .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns4:	<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+dbo:producer	rdfs:subPropertyOf	ns4:coparticipatesWith .
+@prefix ns5:	<http://schema.org/> .
+dbo:producer	owl:equivalentProperty	ns5:producer ;
+	owl:sameAs	dbo:producer ;
+	rdfs:label	"Produzent"@de ,
+		"producent"@nl ,
+		"producer"@en ,
+		"\u03C0\u03B1\u03C1\u03B1\u03B3\u03C9\u03B3\u03CC\u03C2"@el ,
+		"producent"@pl ;
+	rdfs:domain	dbo:Work ;
+	rdfs:range	dbo:Agent ;
+	rdfs:isDefinedBy	dbo: ;
+	rdfs:comment	"The producer of the creative work."@en .
+@prefix wdrs:	<http://www.w3.org/2007/05/powder-s#> .
+dbo:producer	wdrs:describedby	<http://dbpedia.org/ontology/data/definitions.ttl> .
+@prefix ns7:	<http://www.w3.org/ns/prov#> .
+@prefix ns8:	<http://mappings.dbpedia.org/index.php/OntologyProperty:> .
+dbo:producer	ns7:wasDerivedFrom	ns8:producer .
+@prefix ns9:	<http://open.vocab.org/terms/> .
+dbo:	ns9:defines	dbo:producer .
+<http://dbpedia.org/ontology/data/definitions.ttl>	ns9:describes	dbo:producer .

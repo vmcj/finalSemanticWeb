@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf      = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs     = "http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl      = "http://www.w3.org/2002/07/owl#"
+         xmlns:foaf     = "http://xmlns.com/foaf/0.1/"
+         xmlns:po       = "http://purl.org/ontology/po/"
+         xmlns:mo       = "http://purl.org/ontology/mo/"
+         xmlns:skos     = "http://www.w3.org/2008/05/skos#"
+         xmlns:time     = "http://www.w3.org/2006/time#"
+         xmlns:dc       = "http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms  = "http://purl.org/dc/terms/"
+         xmlns:wgs84_pos= "http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:timeline = "http://purl.org/NET/c4dm/timeline.owl#"
+         xmlns:event    = "http://purl.org/NET/c4dm/event.owl#">
+
+<rdf:Description rdf:about="http://bbc.co.uk/programmes/p02hyfb0.rdf">
+  <rdfs:label>Description of the clip "The Doctor and the Dalek App Trailer"</rdfs:label>
+  <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-30T09:30:32Z</dcterms:created>
+  <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-30T13:58:24Z</dcterms:modified>
+  <foaf:primaryTopic rdf:resource="http://bbc.co.uk/programmes/p02hyfb0#programme"/>
+</rdf:Description>
+
+<po:Clip rdf:about="http://bbc.co.uk/programmes/p02hyfb0#programme">
+
+  <dc:title>The Doctor and the Dalek App Trailer</dc:title>
+  <po:short_synopsis>Available for free in the UK on tablets or play the desktop version on the CBBC website!</po:short_synopsis>
+  <po:medium_synopsis>Available for free in the UK on tablets or play the desktop version on the CBBC website!</po:medium_synopsis>
+  <po:long_synopsis>Available for free in the UK on tablets or play the desktop version on the CBBC website!</po:long_synopsis>
+
+  <po:image_pid>p02hyf8w</po:image_pid>
+
+  
+
+  
+
+  <po:genre rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre" />
+
+
+
+
+
+  <po:version rdf:resource="http://bbc.co.uk/programmes/p02hyfb2#programme" />
+
+</po:Clip>
+
+
+
+<po:Brand rdf:about="http://bbc.co.uk/programmes/b006q2x0#programme">
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02hyfb0#programme"/>
+</po:Brand>
+
+
+
+</rdf:RDF>

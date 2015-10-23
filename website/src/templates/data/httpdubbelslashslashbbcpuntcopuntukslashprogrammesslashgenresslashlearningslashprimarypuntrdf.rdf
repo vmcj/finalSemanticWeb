@@ -1,0 +1,2872 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf      = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs     = "http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl      = "http://www.w3.org/2002/07/owl#"
+         xmlns:foaf     = "http://xmlns.com/foaf/0.1/"
+         xmlns:po       = "http://purl.org/ontology/po/"
+         xmlns:mo       = "http://purl.org/ontology/mo/"
+         xmlns:skos     = "http://www.w3.org/2008/05/skos#"
+         xmlns:time     = "http://www.w3.org/2006/time#"
+         xmlns:dc       = "http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms  = "http://purl.org/dc/terms/"
+         xmlns:wgs84_pos= "http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:timeline = "http://purl.org/NET/c4dm/timeline.owl#"
+         xmlns:event    = "http://purl.org/NET/c4dm/event.owl#">
+
+<rdf:Description rdf:about="http://bbc.co.uk/programmes/genres/learning/primary#genre">
+  <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  <skos:inScheme rdf:resource="http://bbc.co.uk/programmes/genres#scheme"/>
+  <rdf:type rdf:resource="http://purl.org/ontology/po/Genre"/>
+  
+  <rdfs:label>Primary</rdfs:label>
+  <skos:prefLabel>Primary</skos:prefLabel>
+  <skos:broader rdf:resource="http://bbc.co.uk/programmes/genres/learning#genre"/>
+</rdf:Description>
+
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4kjw#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025k8cq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tvr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4kc0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025k89m#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tvq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4k86#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025k87x#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6h21#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tvp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4k27#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025k84d#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6gzr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tvn#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4js9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025k80m#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6gy0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gfsc3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tvm#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03ybm4c#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p034rwzv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p034pp32#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b04l8q95#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03y82w1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4jqh#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025k7yb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vs6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b04l6mj3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03xpkd9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p031kmjf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6gvb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b04kkmjw#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03xphgj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p034p3gh#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03xpgkb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03xpdkx#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b04kklnp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03xpb5q#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p031kt52#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tvl#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gfryw#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b04kkj1h#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03tcj10#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p034nyty#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b04kkc5w#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03tcgl6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4jks#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025k7tq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vs5#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b04kkb1l#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03tcd7n#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6grb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p031km4g#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03tcc5b#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03tc8yh#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03skn1z#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03sklrb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p031kssg#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gfrql#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tvk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p034ht4h#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03skk2j#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p034hsfd#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03skjfq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4jcy#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vs4#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025k7rb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03skfmf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p031klxk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6gdr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03qkxmp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03qkx8h#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03qkx5p#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p031kslk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03qkx3d#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tvj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gfrjj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03qkw87#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p0327djw#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p032h5mn#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b01pf87p#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4j27#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vs3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025k7gq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6fhp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6g6z#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b01pf7ll#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p031klgq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b01pf63t#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b01pf28z#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b01p8jk3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b01p8jc0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gfrc2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p031ksg5#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tvh#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b01p8h35#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p0323dfx#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p032h5z0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b01p8gfc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4hmy#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vs2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025k78m#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p031kl73#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tmg#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02mpjvp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tmh#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vb1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w1h#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vnh#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02mph2f#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vx7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02mpjs7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tmf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tmd#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vb0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vng#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w1g#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02mph1s#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vx6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02hwqzt#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02j4ltz#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02mpjmw#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tmc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vx5#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6v9z#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w1f#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vnf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02mpgxr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vx4#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tmb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02mpjk8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w1d#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vnd#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6v9y#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02mpgqs#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vx3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02sgcwq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02sgbq2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tm9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02mpjj2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6v9x#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vnc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w1c#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02mpg9x#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vx2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02mpjh6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tm8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6v9w#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w1b#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vnb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02mpftr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vx1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01mv8b5#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02mpjgn#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tm7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vn9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6v9v#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w19#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02mp8hy#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vx0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02mpjfx#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tm6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vn8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w18#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6v9t#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02mp82h#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vwz#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02ltj7s#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w0q#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02m7w4x#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02j8kz0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02j8m72#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02mp0rs#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vwl#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01rtn0r#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02dsx96#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w0p#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02j8ktp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02j8m34#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02lnywx#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vwk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01rtmtf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vlt#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02dswph#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w0n#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02l8ctx#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02dx2q3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02j8lxq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02l9zhp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vwj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01rtmfr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vbk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02dsw1l#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w0m#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02l8cm7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02dx2km#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02j53k6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02hwpnt#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vwh#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01rtm7y#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vbj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02dsvcp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w0l#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02dx29k#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02hwpk6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vwg#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02j52fw#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n8n2w#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vbh#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02dstzw#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w0k#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02dx223#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02j4w58#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02hwpcd#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vwf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n8mxv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vbg#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02dst13#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w0j#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02hwrck#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02dx1wf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02j4vt1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02hwp3n#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vwd#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n8mtq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vbf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02dsscf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w0h#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02hwby9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02dsyh7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02frbxt#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02hs7j2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vwc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n8mqc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vbd#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02dsrtl#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w0g#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02gb4gs#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01jqrgl#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02dsy4g#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02frbf4#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02h9lf8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vwb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n8mjv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vbc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02dsrkz#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02dt9hm#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02gb3my#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01jqf8b#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02dsxwf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02frb2f#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02gtxc7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vw9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n8mc2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vbb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02dsr5c#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025nch7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025lswk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vyr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vh6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02d6b6c#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025lvk9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025lf74#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025nbkz#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02cbfvj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025lsgv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vyq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vh5#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vy4#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025lvdf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025lf1t#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w39#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02cg0k8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025lrg1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vyp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vh4#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vjj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025ltzz#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025ldt2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w38#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02bqfp0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025lr8q#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vyn#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vh3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025ltt9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025lcl8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w37#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p02b2blh#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025lr06#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vym#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vh2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p0293wp1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025ltp0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025lcd6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w36#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p027b7ml#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025lqs5#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vh1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p0293wgr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025k6v0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025lbds#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p028q7j7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p027b5xd#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025lqq0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vh0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01vl6qz#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01jqwkp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025k6kp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025lb4b#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w34#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p027b540#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025lql1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vgz#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01hcr9w#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025k663#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025kcb2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w33#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p027nbsc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025lpkk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vgy#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01hcqzf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025k61k#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025kc76#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w32#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p027b2nq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025lfhc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vgx#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025k5rn#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p025kc4k#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6v07#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6v06#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6v04#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6v03#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6v02#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6nvp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6n61#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vkc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4m29#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01x0d6q#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6dbd#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w20#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w533q#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6nj6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p0212f4t#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4lww#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01x0cw6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6d6r#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w1z#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w530d#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6ncm#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01sxgv1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p020rqjq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4lsx#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01x0c8l#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6d2f#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w1y#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w52pl#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6n90#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vvk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01x0c7j#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6d09#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w1x#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w52gq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6n3y#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01zdzlw#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01y85b2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01x0c40#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6cr1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w1w#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w50wx#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6k8g#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01z00hm#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01yzsrb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01x0bzl#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6cnc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w1v#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w50rt#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4mfq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6k39#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01yq12h#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01y84f5#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01x0bwv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6cjj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w1t#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w4zhf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01w6jx9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01yb2sg#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01y6dgq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01x0brp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4r4f#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4snk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w02#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4r0z#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4b94#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4qyb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4skc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w01#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4qwg#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n49xy#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4qsm#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w00#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vzc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vz2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vz1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4qmv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n48zs#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4qhg#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4sc4#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vzz#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01svwzs#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vzb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vyw#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n485s#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4q6p#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4s78#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01nwmx4#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vvs#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vz9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vyv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vyt#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n46sb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4ph3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4ryp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01nkvtk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vvr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vz8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vz7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vz6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n45fr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4pcg#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4rvv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01nkmry#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vz5#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vz4#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n451v#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4p8f#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4rr5#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01nkk62#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4npy#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4n6c#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n44kc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4p58#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4rnz#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01nkjbd#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4njv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4n25#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01nk8bm#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n43p5#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4p31#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4rhz#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01nkj2q#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4nbj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4mxk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01nk7fr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01n4299#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vmg#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gfp8d#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gftf2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01mv8qp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vsc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gf33n#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vmf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gfp3z#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gft44#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01ltlt3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gft1x#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gfsxs#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gfsj3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vsb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gf30t#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vmd#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gfp16#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01ltkm8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vs9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vks#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gf2q9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vmc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01knh15#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gfnx8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01l3nbq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vs8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vkr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gf2ky#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vmb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01kn92x#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gfnsp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01kr1jj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vs7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vkq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gf2f6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vm9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gfvyc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01js17h#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vkp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gf25h#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vm8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gfn8s#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vkn#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gf20m#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vm7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01hcfjj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gfmc1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vkm#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gf0ym#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vz0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vyz#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vyy#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vyx#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vwx#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vww#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vwv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vwt#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vws#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vwr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vwq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vwp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vwn#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vwm#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vt9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vt8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vt7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vt6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vt5#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vt4#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vl5#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vt3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vl4#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vt2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vl3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vm6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01hcb6n#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vt1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gflmc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vl2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vl1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vl0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vkz#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vky#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vkx#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vkw#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tsw#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tsv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vkl#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tst#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tss#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tsr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tsq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tsp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tsn#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tsm#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tsl#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gf0sb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vm5#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01hb0yx#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01gfl4r#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vyh#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01hcq2y#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vkk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p01g0r7g#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vp0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w1r#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w0z#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vnz#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w1q#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w0y#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vny#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w1p#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w0x#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vnx#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w1n#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w0w#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vnw#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w1m#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w0v#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vnv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w1l#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w0t#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vnt#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w1k#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w0s#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w1s#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vns#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w1j#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w0r#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w0d#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vkd#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vzy#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vzf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vz3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vys#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vsp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6ts7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vyg#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w0c#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vzx#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vzl#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vzd#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vsn#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6ts6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vyf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w0b#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vkb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vzw#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vzk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vsm#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6ts5#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vyd#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w09#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vk9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vzv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vsl#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6ts4#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vyc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w08#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vk8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vzt#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vsk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6ts3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vyb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vsj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6ts2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vy9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w06#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vzr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vyl#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vsh#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6ts1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vy8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w05#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vzq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vyk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vsg#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6ts0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vy7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w04#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vzp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vyj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vsf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6trz#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vy6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w0f#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w03#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vzn#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vsd#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w07#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vk7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vzs#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vxl#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vx8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vqr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vwy#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tw2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vw8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vxk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vqq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vls#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tw1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vw7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vxj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vqp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vlr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tw0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vw6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vxh#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vqn#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vlq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tvz#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vw5#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vxg#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vqm#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vlp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tvy#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vw4#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vxf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vql#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vln#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tvx#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vw3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vhk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vxd#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vqk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vlm#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tvw#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vw2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vxc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vqj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vll#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tvv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vw1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vxb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vqh#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vlk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tvt#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vw0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vx9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vqg#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vlj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tvs#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vvz#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vp8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w31#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w2s#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w2j#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w28#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vp7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w30#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w2r#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w2h#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w27#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vp6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w2z#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w2q#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w2g#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w26#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vp5#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w2y#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w2p#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w2f#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w25#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vp4#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w35#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w2x#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w2n#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w2d#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w24#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vp3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w2w#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w2m#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w2c#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w23#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vp2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w2v#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w2l#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w2b#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w22#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vp1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w2t#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w2k#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w29#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6w21#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vv9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vtz#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vkv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vtb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vs1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vv8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vty#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vkt#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vs0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6v05#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vv7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vtx#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vrz#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vv6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vtw#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vry#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vv5#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vtv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vrx#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vv4#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vtt#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vrw#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6v01#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vv3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vts#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vrv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6v00#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vv2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vtr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vrt#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tzz#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vv1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vtq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vrs#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tzy#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vv0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vtp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vrr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vrq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vrd#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tth#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vqf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vq7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vpl#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vrp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vrc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6ttg#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vqd#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vq6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vpk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vrn#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vrb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6ttf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vqc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vq5#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vpj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vrm#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vr9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6ttd#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vqb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vq4#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vph#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vrl#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vr8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6ttc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vq9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vq3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vpg#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vrk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vr7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6ttn#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vq8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vq2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vpf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vrj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vr6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tt9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vq1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vpd#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vrh#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vr5#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tt8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6ttl#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vq0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vpc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vrg#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vr4#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tt7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6ttk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vpz#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vpb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vrf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vr3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tt6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6ttj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vpy#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vp9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tqd#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vnr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vn7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tnv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vmq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tqc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vnq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vn6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tnt#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vmp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tqb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vnp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vn5#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tns#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vmn#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tq9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vnn#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tnr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vmm#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tq8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vnm#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vn3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tnq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vml#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tq7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vnl#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vn2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tnp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vmk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tq6#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vnk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vn1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tnn#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vmj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tq5#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vnj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vn0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tnm#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vmh#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vm4#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tyz#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vjw#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vm3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tyy#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vjv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vm2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tyx#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vjt#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vm1#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tyw#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vjs#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vm0#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tyv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vjr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vlz#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tyt#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vjq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vly#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tys#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vjp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vlx#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tyr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vjn#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vlw#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6tyq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vjm#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6try#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vlv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6typ#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vjl#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vhw#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vgw#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vgk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vfr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vjh#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vhv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vgv#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vgj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vfq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vht#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vgt#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vgh#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vfp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vhs#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vgs#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vgg#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vfn#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vhr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vgr#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vgf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vfm#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vhq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vgq#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vgd#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vfl#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vhp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vgp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vgc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vfk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vhn#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vgn#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vgb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vfj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vhm#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vgm#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vg9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vfh#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vhl#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vgl#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vg8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b03g6vfg#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/learning/primary#genre"/>
+</po:Episode>
+
+
+</rdf:RDF>

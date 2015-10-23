@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf      = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs     = "http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl      = "http://www.w3.org/2002/07/owl#"
+         xmlns:foaf     = "http://xmlns.com/foaf/0.1/"
+         xmlns:po       = "http://purl.org/ontology/po/"
+         xmlns:mo       = "http://purl.org/ontology/mo/"
+         xmlns:skos     = "http://www.w3.org/2008/05/skos#"
+         xmlns:time     = "http://www.w3.org/2006/time#"
+         xmlns:dc       = "http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms  = "http://purl.org/dc/terms/"
+         xmlns:wgs84_pos= "http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:timeline = "http://purl.org/NET/c4dm/timeline.owl#"
+         xmlns:event    = "http://purl.org/NET/c4dm/event.owl#">
+
+<rdf:Description rdf:about="http://bbc.co.uk/programmes/b00dr74v.rdf">
+  <rdfs:label>Description of the series "Series 1"</rdfs:label>
+  <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-09-13T00:03:42+01:00</dcterms:created>
+  <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-01T09:10:43+01:00</dcterms:modified>
+  <foaf:primaryTopic rdf:resource="http://bbc.co.uk/programmes/b00dr74v#programme"/>
+</rdf:Description>
+
+<po:Series rdf:about="http://bbc.co.uk/programmes/b00dr74v#programme">
+
+  <po:pid>b00dr74v</po:pid>
+  <dc:title>Series 1</dc:title>
+  <po:short_synopsis>Fantasy-drama based on Arthurian Legend - keep the magic secret.</po:short_synopsis>
+  <po:medium_synopsis>Fantasy-drama based on Arthurian Legend - keep the magic secret.</po:medium_synopsis>
+  
+
+  <foaf:depiction rdf:resource="http://www.bbc.co.uk/iplayer/images/series/b00dr74v_512_288.jpg"/>
+
+  
+
+  <po:genre rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre" />
+
+
+  
+
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbyyg#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbyfw#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbygr#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbz2j#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbwfq#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbyx1#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbys8#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbyz7#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbyyx#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbyt6#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbyn7#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbyxb#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbz18#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbz3z#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbz07#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbypr#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kby9w#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbz64#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbyqv#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbyhj#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbyw1#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbyc8#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbxh1#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kby98#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbyr5#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbxk2#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbyfm#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbyxt#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbz1l#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00kbz0x#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00pq9kb#programme"/>
+
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00dq8tn#programme">
+      <dc:title>The Dragon&#39;s Call</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00drmbs#programme">
+      <dc:title>Valiant</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00dw376#programme">
+      <dc:title>The Mark of Nimueh</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00dzwq6#programme">
+      <dc:title>The Poisoned Chalice</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00f3lmf#programme">
+      <dc:title>Lancelot</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00f71d1#programme">
+      <dc:title>A Remedy To Cure All Ills</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00fcsmg#programme">
+      <dc:title>The Gates of Avalon</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00ffv90#programme">
+      <dc:title>The Beginning of the End</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00flw7z#programme">
+      <dc:title>Excalibur</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00fqhqs#programme">
+      <dc:title>The Moment of Truth</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00fv9hj#programme">
+      <dc:title>The Labyrinth of Gedref</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00fz8vq#programme">
+      <dc:title>To Kill the King</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00g43r6#programme">
+      <dc:title>Le Morte d&#39;Arthur</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</po:position> 
+    </po:Episode>
+  </po:episode>
+
+
+</po:Series>
+
+<po:Brand rdf:about="http://bbc.co.uk/programmes/b00mjlxv#programme">
+  <po:series rdf:resource="http://bbc.co.uk/programmes/b00dr74v#programme"/>
+</po:Brand>
+
+
+
+</rdf:RDF>

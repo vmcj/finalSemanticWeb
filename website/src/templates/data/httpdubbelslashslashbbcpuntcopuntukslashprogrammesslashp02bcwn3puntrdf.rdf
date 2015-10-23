@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf      = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs     = "http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl      = "http://www.w3.org/2002/07/owl#"
+         xmlns:foaf     = "http://xmlns.com/foaf/0.1/"
+         xmlns:po       = "http://purl.org/ontology/po/"
+         xmlns:mo       = "http://purl.org/ontology/mo/"
+         xmlns:skos     = "http://www.w3.org/2008/05/skos#"
+         xmlns:time     = "http://www.w3.org/2006/time#"
+         xmlns:dc       = "http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms  = "http://purl.org/dc/terms/"
+         xmlns:wgs84_pos= "http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:timeline = "http://purl.org/NET/c4dm/timeline.owl#"
+         xmlns:event    = "http://purl.org/NET/c4dm/event.owl#">
+
+<rdf:Description rdf:about="http://bbc.co.uk/programmes/p02bcwn3.rdf">
+  <rdfs:label>Description of the clip "Doctor Who Extra: Hula Missy!"</rdfs:label>
+  <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-08T21:41:26Z</dcterms:created>
+  <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-08T21:41:26Z</dcterms:modified>
+  <foaf:primaryTopic rdf:resource="http://bbc.co.uk/programmes/p02bcwn3#programme"/>
+</rdf:Description>
+
+<po:Clip rdf:about="http://bbc.co.uk/programmes/p02bcwn3#programme">
+
+  <dc:title>Doctor Who Extra: Hula Missy!</dc:title>
+  <po:short_synopsis>Michelle Gomez demonstrates her hula hoop prowess&#8230; Watch Doctor Who Extra to see more!</po:short_synopsis>
+  <po:medium_synopsis>Michelle Gomez demonstrates her hula hoop prowess&#8230; Watch Doctor Who Extra to see more!</po:medium_synopsis>
+  <po:long_synopsis>Michelle Gomez demonstrates her hula hoop prowess&#8230; Watch Doctor Who Extra to see more!</po:long_synopsis>
+
+  <po:image_pid>p02bcwmx</po:image_pid>
+
+  
+
+  
+
+  <po:genre rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre" />
+
+
+
+
+
+  <po:version rdf:resource="http://bbc.co.uk/programmes/p02bcwn5#programme" />
+
+</po:Clip>
+
+
+
+<po:Brand rdf:about="http://bbc.co.uk/programmes/b006q2x0#programme">
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p02bcwn3#programme"/>
+</po:Brand>
+
+
+
+</rdf:RDF>

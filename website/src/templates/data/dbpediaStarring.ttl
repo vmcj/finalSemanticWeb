@@ -1,0 +1,28 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+dbo:starring	rdf:type	owl:ObjectProperty ,
+		rdf:Property .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns4:	<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+dbo:starring	rdfs:subPropertyOf	ns4:sameSettingAs .
+@prefix wikidata:	<http://www.wikidata.org/entity/> .
+dbo:starring	owl:equivalentProperty	wikidata:P161 .
+@prefix ns6:	<http://schema.org/> .
+dbo:starring	owl:equivalentProperty	ns6:actors ;
+	owl:sameAs	dbo:starring ;
+	rdfs:label	"\u03B7\u03B8\u03BF\u03C0\u03BF\u03B9\u03BF\u03AF"@el ,
+		"met in de hoofdrol"@nl ,
+		"starring"@en ,
+		"acteur"@fr ;
+	rdfs:domain	dbo:Work ;
+	rdfs:range	dbo:Actor ;
+	rdfs:isDefinedBy	dbo: .
+@prefix wdrs:	<http://www.w3.org/2007/05/powder-s#> .
+dbo:starring	wdrs:describedby	<http://dbpedia.org/ontology/data/definitions.ttl> .
+@prefix ns8:	<http://www.w3.org/ns/prov#> .
+@prefix ns9:	<http://mappings.dbpedia.org/index.php/OntologyProperty:> .
+dbo:starring	ns8:wasDerivedFrom	ns9:starring .
+@prefix ns10:	<http://open.vocab.org/terms/> .
+dbo:	ns10:defines	dbo:starring .
+<http://dbpedia.org/ontology/data/definitions.ttl>	ns10:describes	dbo:starring .

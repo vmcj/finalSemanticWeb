@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf      = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs     = "http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl      = "http://www.w3.org/2002/07/owl#"
+         xmlns:foaf     = "http://xmlns.com/foaf/0.1/"
+         xmlns:po       = "http://purl.org/ontology/po/"
+         xmlns:mo       = "http://purl.org/ontology/mo/"
+         xmlns:skos     = "http://www.w3.org/2008/05/skos#"
+         xmlns:time     = "http://www.w3.org/2006/time#"
+         xmlns:dc       = "http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms  = "http://purl.org/dc/terms/"
+         xmlns:wgs84_pos= "http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:timeline = "http://purl.org/NET/c4dm/timeline.owl#"
+         xmlns:event    = "http://purl.org/NET/c4dm/event.owl#">
+
+<rdf:Description rdf:about="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre">
+  <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
+  <skos:inScheme rdf:resource="http://bbc.co.uk/programmes/genres#scheme"/>
+  <rdf:type rdf:resource="http://purl.org/ontology/po/Genre"/>
+  
+  <rdfs:label>SciFi &amp; Fantasy</rdfs:label>
+  <skos:prefLabel>SciFi &amp; Fantasy</skos:prefLabel>
+  <skos:broader rdf:resource="http://bbc.co.uk/programmes/genres/drama#genre"/>
+</rdf:Description>
+
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b007s74m#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b007s5v2#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b007jv38#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b06j6wry#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b06kv29n#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b007jqzb#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b06j59bk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b06gxt5g#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b007scyn#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b007s8gp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b007s7x3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b007jtyf#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b01p1pl8#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b06fq0z9#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b01p0xjc#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b01p0v60#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b01p0rq3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b01p0gsn#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b06h9y66#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p032j2x7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b00cfzsp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b06dpx8x#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b007jldt#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b007jldg#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p032knhy#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p032kphj#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p032j592#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p032kqxy#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p032kqbp#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p032j5zk#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p032kpxt#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p032kmfl#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p032j4n7#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/p0338d0k#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+<po:Episode rdf:about="http://bbc.co.uk/programmes/b007jld3#programme">
+    <po:category rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre"/>
+</po:Episode>
+
+
+</rdf:RDF>

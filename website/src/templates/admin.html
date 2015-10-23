@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<title>Admin Panel</title>
+<style>
+body {
+	background-color:black;
+	color:green;
+}
+a {
+	color:yellow;
+	display: block;
+}
+</style>
+<body>
+<h1>Admin Panel</h1>
+<h2>Live Settings</h2>
+<div style="border: 1px solid red; margin: 10px; padding: 10px;">
+	<h3>System wide Reasoning</h2>
+	<div style="border: 1px dotted yellow; margin: 10px; padding: 10px;">
+		Toggle de sytem wide reasoning on or off.
+		<input type="checkbox" id="systinf">
+	</div>
+</div>
+<h2>Data import</h2>
+<div style="border: 1px solid red; margin: 10px; padding: 10px;">
+	<h3>Factforge</h2>
+	<div style="border: 1px dotted yellow; margin: 10px; padding: 10px;">
+		Run query to get the data from factforge which consists of the union of the "outdated" freebase and the last import from dbpedia (which is a scrape of parts of wikipedia.org). This generates overhead problems. We choose to implement the data in local form. The problems where with the rdflib.term handlers, the endpoint which didn't provide the right syntax or our framework which didn't process all the data in normal time.<br>
+Even when this was working after importing the N3 format which the sparqlWrapper can use this still is to big of an hassle to use. The webbrowser gets idle so a better usage would be to curl on system level and read the file. When scaled to bigger machines this method would probably work and because this is only to start the application for first usage we will only fix this in the "future release"<ul><li id="factForgeButton1">Get the data</li><li style="visibility: hidden" id="factForgeButton2">Safe the data (To slow, for display purpose (therefor limit 10)</li></ul>
+<textarea id="factforgeQuery" style="background-color: #111; color: #fff; display: block; clear: both; width: 1000px; height: 300px;">CONSTRUCT { ?a ?b2 ?c } WHERE {
+{ ?a ?b <http://dbpedia.org/resource/Category:BBC_children's_television_programmes> . } 
+  UNION
+  { ?a ?b <http://dbpedia.org/resource/Category:BBC_television_programmes> . }
+  UNION
+  { ?a ?b <http://dbpedia.org/resource/100_Greatest_British_Television_Programmes> . }
+  ?a ?b2 ?c .
+  { FILTER(CONTAINS(str(?b2), "pis")) }
+  UNION
+  { FILTER(CONTAINS(str(?b2), "easo")) }
+  UNION
+  { FILTER(CONTAINS(str(?b2), "erie")) }
+  UNION
+  { FILTER(CONTAINS(str(?b2), "elated")) }
+  UNION
+  { FILTER(CONTAINS(str(?b2), "enre")) }
+  UNION
+  { FILTER(CONTAINS(str(?b2), "ebsite")) }
+  UNION
+  { FILTER(CONTAINS(str(?b2), "ebpage")) }
+  UNION
+  { FILTER(CONTAINS(str(?b2), "abstract")) }
+  UNION
+  { FILTER(CONTAINS(str(?b2), "label")) }
+  UNION
+  { FILTER(CONTAINS(str(?b2), "ctor")) }
+  UNION
+  { FILTER(CONTAINS(str(?b2), "starring")) }
+} LIMIT 10</textarea>
+<code id="ffResult"></code>
+	<a href="/data/factforgeAllCandBBCProgramsSelectedRels.ttl">factforgeset (All CBBC & BBC Programs with selected relations)</a>
+	</div>
+	<h3>BBC.co.uk</h2>
+	<div style="border: 1px dotted yellow; margin: 10px; padding: 10px;">
+		<ul>
+			<li><a href="/scripts/wrapper.sh">wrapper.sh</a></li>
+			<li><a href="/scripts/bbcParser.py">bbcParser.py</a></li>
+			<li><a href="/data/top.rdf">Hoofdgenre (http://www.bbc.co.uk/bbcone/programmes/genres.rdf)</a></li>
+		</ul>
+		Download the rdf data from bbc.co.uk vanaf de hoofd genres. Deze methode hebben wij vrij laat gevonden en levert veel resultaten op. Meer dan op een laptop te schalen valt (in een uur tijd 15.000 files), dit moet dus indien dit nodig is in een latere release schaalbaar gemaakt worden. Problemen hier zijn bij het inladen dat de url "/programmes/$KEY$" waarbij $KEY$ de key van het programma is niet voldoende is voor stardog en dat deze de data niet importeert, daarom is de parser herschreven zodat deze nu ook de urls corrigeert. Het voordeel van dit "agresieve gedrag</div>
+	<h3>Herbouw Database</h3>
+	<div style="border: 1px dotted yellow; margin: 10px; padding: 10px;">
+		Vanuit hier kan de hele database gemaakt worden <a href="/adminUNIXRebuild">klik</a>
+		<hr>
+		<code> Moeilijkheden, het is wat moeilijk om het systeem installeerbaar te maken, daarom de dirty fix om python op het systeem te laten installeren en aan te nemen dat Stardog aanwezig is, in de toekomst nemen we dus aan dat of er een tripple store aanwezig is, of dat we de "post" functionaliteit uitwerken van een triple store</code>
+	</div>
+</div>
+<h2>List Users of the Program</h2>
+<div style="border: 1px solid red; margin: 10px; padding: 10px;">
+	<h3>Teachers</h3>
+	<div style="border: 1px dotted yellow; margin: 10px; padding: 10px;">
+		 <div style="border: 1px solid grey; margin: 10px; padding: 10px;" id='cTeacher'>
+PREFIX own: &lt;http://www.few.vu.nl/~mvr320/ontologies/week2#&gt;
+select ?a WHERE {
+?a ?b own:Teachers .
+FILTER(CONTAINS(str(?b), "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"))
+}</div>
+		<div style="border: 1px solid grey; margin: 10px; padding: 10px;" id="dTeacher"></div>
+	</div>
+	<h3>Students</h3>
+	<div style="border: 1px dotted yellow; margin: 10px; padding: 10px;">
+		 <div style="border: 1px solid grey; margin: 10px; padding: 10px;" id='cStudent'>
+PREFIX own: &lt;http://www.few.vu.nl/~mvr320/ontologies/week2#&gt;
+select ?a WHERE {
+?a ?b own:Students .
+FILTER(CONTAINS(str(?b), "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"))
+}</div>
+		<div style="border: 1px solid grey; margin: 10px; padding: 10px;" id="dStudent"></div>
+	</div>
+	<h3>Users</h3>
+	<div style="border: 1px dotted yellow; margin: 10px; padding: 10px;">
+		 <div style="border: 1px solid grey; margin: 10px; padding: 10px;" id='cUser'>
+PREFIX own: &lt;http://www.few.vu.nl/~mvr320/ontologies/week2#&gt;
+select ?a WHERE {
+?a ?b own:Users .
+FILTER(CONTAINS(str(?b), "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"))
+}</div>
+		<div style="border: 1px solid grey; margin: 10px; padding: 10px;" id="dUser"></div>
+	</div>
+	<hr>
+	<code>
+		Het probleem is hier dat de queries niet werken wanneer reasoning uit staat. Vreemd genoeg lijkt de studenten query nog te werken terwijl in de ontology teachers hard in de class zijn gezet, terwijl de studenten gebonden worden door de beperking van de anonieme equalclass waarin studenten, studenten zijn door de student<->Teacher relatie.
+	</code>
+</div>
+<h2>Views</h2>
+<div style="border: 1px solid red; margin: 10px; padding: 10px;">
+	<h3>Teacher views</h3>
+	<div style="border: 1px dotted yellow; margin: 10px; padding: 10px;">
+		 <div style="border: 1px solid grey; margin: 10px; padding: 10px;" id='qTeacherV'>
+PREFIX own: &lt;http://www.few.vu.nl/~mvr320/ontologies/week2#&gt;
+SELECT DISTINCT ?teacher ?student WHERE {
+	{
+      	?student rdf:type own:Students .
+  		OPTIONAL{ ?student own:student_of ?teacher }
+	}
+  	UNION
+  	{
+      	?teacher rdf:type own:Teachers .
+  		OPTIONAL{ ?teacher own:teacher_of ?student }
+  		#OPTIONAL{ ?student own:is_advised ?media }
+	}      
+} ORDER BY ?teacher
+		</div>
+		<div style="border: 1px solid grey; margin: 10px; padding: 10px;" id="rTeacherV"></div>
+	</div>
+	<h3>Student views</h3>
+	<div style="border: 1px dotted yellow; margin: 10px; padding: 10px;">
+		 <div style="border: 1px solid grey; margin: 10px; padding: 10px;" id='qStudentV'>
+PREFIX own: &lt;http://www.few.vu.nl/~mvr320/ontologies/week2#&gt;
+SELECT DISTINCT ?student (count(?media) as ?count)
+WHERE {
+  	?student rdf:type own:Students .
+  	OPTIONAL{ ?student own:is_advised ?media }
+} GROUP BY ?student ORDER BY ?count
+		</div>
+		<div style="border: 1px solid grey; margin: 10px; padding: 10px;" id="rStudentV"></div>
+	</div>
+</div>		<script src='{{ url_for("static", filename="js/jquery-1.11.0.min.js") }}' type='text/javascript'></script>
+		<script src='{{ url_for("static", filename="js/admin.js") }}' type='text/javascript'></script>
+	</body>
+</html>

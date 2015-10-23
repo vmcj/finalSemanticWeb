@@ -1,0 +1,30 @@
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+dbo:episodeNumber	rdfs:domain	dbo:TelevisionEpisode .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+dbo:TelevisionEpisode	rdf:type	owl:Class .
+@prefix ns4:	<http://schema.org/> .
+dbo:TelevisionEpisode	owl:equivalentClass	ns4:TVEpisode ;
+	owl:sameAs	dbo:TelevisionEpisode ;
+	rdfs:subClassOf	dbo:Work ;
+	rdfs:label	"\uD154\uB808\uBE44\uC804 \uC5D0\uD53C\uC18C\uB4DC"@ko ,
+		"Fernsehfolge"@de ,
+		"\u00E9pisode t\u00E9l\u00E9vis\u00E9"@fr ,
+		"\u03B5\u03C0\u03B5\u03B9\u03C3\u03CC\u03B4\u03B9\u03BF \u03C4\u03B7\u03BB\u03B5\u03CC\u03C1\u03B1\u03C3\u03B7\u03C2"@el ,
+		"televisie seizoen"@nl ,
+		"cap\u00EDtulo de serie de televisi\u00F3n"@es ,
+		"television episode"@en ;
+	rdfs:isDefinedBy	dbo: ;
+	rdfs:comment	"A television episode is a part of serial television program."@en .
+@prefix wdrs:	<http://www.w3.org/2007/05/powder-s#> .
+dbo:TelevisionEpisode	wdrs:describedby	<http://dbpedia.org/ontology/data/definitions.ttl> .
+@prefix ns6:	<http://www.w3.org/ns/prov#> .
+@prefix ns7:	<http://mappings.dbpedia.org/index.php/OntologyClass:> .
+dbo:TelevisionEpisode	ns6:wasDerivedFrom	ns7:TelevisionEpisode .
+dbo:photographer	rdfs:domain	dbo:TelevisionEpisode .
+dbo:seasonNumber	rdfs:domain	dbo:TelevisionEpisode .
+dbo:guest	rdfs:domain	dbo:TelevisionEpisode .
+@prefix ns8:	<http://open.vocab.org/terms/> .
+dbo:	ns8:defines	dbo:TelevisionEpisode .
+<http://dbpedia.org/ontology/data/definitions.ttl>	ns8:describes	dbo:TelevisionEpisode .

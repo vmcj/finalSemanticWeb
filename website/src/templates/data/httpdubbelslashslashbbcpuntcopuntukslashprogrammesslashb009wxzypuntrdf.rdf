@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf      = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs     = "http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl      = "http://www.w3.org/2002/07/owl#"
+         xmlns:foaf     = "http://xmlns.com/foaf/0.1/"
+         xmlns:po       = "http://purl.org/ontology/po/"
+         xmlns:mo       = "http://purl.org/ontology/mo/"
+         xmlns:skos     = "http://www.w3.org/2008/05/skos#"
+         xmlns:time     = "http://www.w3.org/2006/time#"
+         xmlns:dc       = "http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms  = "http://purl.org/dc/terms/"
+         xmlns:wgs84_pos= "http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:timeline = "http://purl.org/NET/c4dm/timeline.owl#"
+         xmlns:event    = "http://purl.org/NET/c4dm/event.owl#">
+
+<rdf:Description rdf:about="http://bbc.co.uk/programmes/b009wxzy.rdf">
+  <rdfs:label>Description of the series "Series 4"</rdfs:label>
+  <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-03-29T21:02:04Z</dcterms:created>
+  <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-12-18T16:04:36Z</dcterms:modified>
+  <foaf:primaryTopic rdf:resource="http://bbc.co.uk/programmes/b009wxzy#programme"/>
+</rdf:Description>
+
+<po:Series rdf:about="http://bbc.co.uk/programmes/b009wxzy#programme">
+
+  <po:pid>b009wxzy</po:pid>
+  <dc:title>Series 4</dc:title>
+  <po:short_synopsis>Adventures in time and space with the Tenth Doctor and his companion Donna Noble.</po:short_synopsis>
+  <po:medium_synopsis>Adventures in time and space with the Tenth Doctor and his companion Donna Noble.</po:medium_synopsis>
+  
+
+  <foaf:depiction rdf:resource="http://www.bbc.co.uk/iplayer/images/series/b009wxzy_512_288.jpg"/>
+
+  
+
+  <po:genre rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre" />
+
+
+  
+
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00hzhnq#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00hzhbm#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00hzh5t#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00hzhvn#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00hzj2c#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00hzj5r#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00hzh0b#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00hzjj3#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00j4vqm#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00hzl65#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00hzkw3#programme"/>
+
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b009w049#programme">
+      <dc:title>Partners in Crime</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b009wzbf#programme">
+      <dc:title>The Fires of Pompeii</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00b07kw#programme">
+      <dc:title>Planet of the Ood</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00b3z7h#programme">
+      <dc:title>The Sontaran Stratagem</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00b563l#programme">
+      <dc:title>The Poison Sky</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00bbpsb#programme">
+      <dc:title>The Doctor&#39;s Daughter</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00bdjtc#programme">
+      <dc:title>The Unicorn and the Wasp</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00byd29#programme">
+      <dc:title>Silence in the Library</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00c191w#programme">
+      <dc:title>Forest of the Dead</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00c4xjk#programme">
+      <dc:title>Midnight</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00c7ytx#programme">
+      <dc:title>Turn Left</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00cccvg#programme">
+      <dc:title>The Stolen Earth</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00cgnjr#programme">
+      <dc:title>Journey&#39;s End</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</po:position> 
+    </po:Episode>
+  </po:episode>
+
+
+</po:Series>
+
+<po:Brand rdf:about="http://bbc.co.uk/programmes/b006q2x0#programme">
+  <po:series rdf:resource="http://bbc.co.uk/programmes/b009wxzy#programme"/>
+</po:Brand>
+
+
+
+</rdf:RDF>

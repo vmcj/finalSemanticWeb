@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf      = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs     = "http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl      = "http://www.w3.org/2002/07/owl#"
+         xmlns:foaf     = "http://xmlns.com/foaf/0.1/"
+         xmlns:po       = "http://purl.org/ontology/po/"
+         xmlns:mo       = "http://purl.org/ontology/mo/"
+         xmlns:skos     = "http://www.w3.org/2008/05/skos#"
+         xmlns:time     = "http://www.w3.org/2006/time#"
+         xmlns:dc       = "http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms  = "http://purl.org/dc/terms/"
+         xmlns:wgs84_pos= "http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:timeline = "http://purl.org/NET/c4dm/timeline.owl#"
+         xmlns:event    = "http://purl.org/NET/c4dm/event.owl#">
+
+<rdf:Description rdf:about="http://bbc.co.uk/programmes/b00rs69w.rdf">
+  <rdfs:label>Description of the series "Series 5"</rdfs:label>
+  <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-03-15T15:50:08Z</dcterms:created>
+  <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-07-05T12:03:55+01:00</dcterms:modified>
+  <foaf:primaryTopic rdf:resource="http://bbc.co.uk/programmes/b00rs69w#programme"/>
+</rdf:Description>
+
+<po:Series rdf:about="http://bbc.co.uk/programmes/b00rs69w#programme">
+
+  <po:pid>b00rs69w</po:pid>
+  <dc:title>Series 5</dc:title>
+  <po:short_synopsis>Adventures in time and space with the Eleventh Doctor and his companion Amy Pond.</po:short_synopsis>
+  <po:medium_synopsis>Adventures in time and space with the Eleventh Doctor and his companion Amy Pond.</po:medium_synopsis>
+  
+
+  <foaf:depiction rdf:resource="http://www.bbc.co.uk/iplayer/images/series/b00rs69w_512_288.jpg"/>
+
+  
+
+  <po:genre rdf:resource="http://bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre" />
+
+
+  
+
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p019xqnw#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p019xqck#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p019xpvm#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p019xnxv#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p019xnkc#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p019xnfm#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p019xn6l#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p019xmrh#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p019xmfb#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p019xm2y#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p019xl91#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p019xksy#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p01hfqqd#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00d18xh#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00d0pyq#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00d0n6n#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00cwyj4#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00cwyxm#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p009nwmf#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p009nsmq#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p009nsm8#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p01hfpgn#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p008h7jl#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p007vysc#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00765jg#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p007vf2l#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p007vf4t#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p01hfq3m#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00783hc#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p00765br#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p006k2w4#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p019xlm7#programme"/>
+  <po:clip rdf:resource="http://bbc.co.uk/programmes/p005vy7x#programme"/>
+
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00rs6t7#programme">
+      <dc:title>The Eleventh Hour</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00s1wcm#programme">
+      <dc:title>The Beast Below</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00s56d2#programme">
+      <dc:title>Victory of the Daleks</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00s8dwd#programme">
+      <dc:title>The Time of Angels</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00s971z#programme">
+      <dc:title>Flesh and Stone</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00sch0s#programme">
+      <dc:title>The Vampires of Venice</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00sfgtp#programme">
+      <dc:title>Amy&#39;s Choice</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00sj9sq#programme">
+      <dc:title>The Hungry Earth</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00sm031#programme">
+      <dc:title>Cold Blood</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00spgsf#programme">
+      <dc:title>Vincent and the Doctor</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00sr4bm#programme">
+      <dc:title>The Lodger</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00stv7m#programme">
+      <dc:title>The Pandorica Opens</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</po:position> 
+    </po:Episode>
+  </po:episode>
+  <po:episode>
+    <po:Episode rdf:about="http://bbc.co.uk/programmes/b00sxfc7#programme">
+      <dc:title>The Big Bang</dc:title> 
+      <po:position rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</po:position> 
+    </po:Episode>
+  </po:episode>
+
+
+</po:Series>
+
+<po:Brand rdf:about="http://bbc.co.uk/programmes/b006q2x0#programme">
+  <po:series rdf:resource="http://bbc.co.uk/programmes/b00rs69w#programme"/>
+</po:Brand>
+
+
+
+</rdf:RDF>
