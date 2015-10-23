@@ -1,7 +1,7 @@
 $(document).ready(function(e){
 	var endpoint = 'http://localhost:5820/finalprojectcli4/query';
 	var getStudent = 'PREFIX own: <http://www.few.vu.nl/~mvr320/ontologies/week2#> SELECT ?a WHERE { ?a rdf:type own:Students }'
-	var getMedia = 'PREFIX own: <http://www.few.vu.nl/~mvr320/ontologies/week2#> SELECT ?a ?l WHERE { ?a rdf:type own:Media . }'
+	var getMedia = 'PREFIX own: <http://www.few.vu.nl/~mvr320/ontologies/week2#> SELECT ?a ?l WHERE { ?a rdf:type own:Media . { OPTIONAL{ ?a dc:title ?title} } UNION { OPTIONAL{ ?a dcterms:title ?title} } }'
 	$.get('/sparql',data={'endpoint': endpoint, 'query': getStudent}, function(json){
 		console.log(json)
 		try {
